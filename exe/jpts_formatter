@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+
+require 'jpts_formatter'
+
+require 'pathname'
+
+# JPTSFormatter::Cli::Application.start(ARGV)
+
+def read_file(io, lines)
+  io.readlines.each { |line| lines << line.chomp }
+end
+
+case ARGV.size
+when 1
+  # read_file(STDIN, lines)
+  output_filename = ARGV[0]
+  if output_filename == '-'
+    output = JPTSFormatter.format(STDIN)
+    STDOUT.puts output
+  else
+    output_path = Pathname(output_filename)
+    output_path.open('w') { |f| f.write(JPTSFormatter.format(STDIN)) }
+  end
+when 2
+  input_filename = ARGV[0]
+  input_path = Pathname.new(input_filename)
+
+  output_filename = ARGV[1]
+  output_path = Pathname.new(output_filename)
+
+  output = JPTSFormatter.format(input_path.open)
+  output_path.open('w') { |f| f.write output }
+else
+  puts "usage information"
+end

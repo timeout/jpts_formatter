@@ -1,0 +1,3029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <!-- layout master -->
+  <fo:layout-master-set>
+    <!-- definition of physical page -->
+    <fo:simple-page-master master-name="test_job" page-height="297mm" page-width="210mm" margin-top="18pt" margin-bottom="18pt" margin-left="36pt" margin-right="36pt">
+      <!-- definition of printable areas -->
+      <!-- body dimensions -->
+      <fo:region-body margin-top="36pt" margin-bottom="36pt"/>
+      <!-- header dimensions (height) -->
+      <fo:region-before extent="24pt" precedence="true"/>
+      <!-- footer dimensions (height) -->
+      <fo:region-after extent="24pt" precedence="true"/>
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+  <!-- pagination specification -->
+  <fo:page-sequence master-reference="test_job" xml:lang="en">
+    <!-- document title -->
+    <fo:title>PLOS ONE</fo:title>
+    <fo:static-content flow-name="xsl-region-before">
+      <fo:table table-layout="fixed" width="100%" font-size="9pt">
+        <fo:table-column column-number="1" column-width="proportional-column-width(1)"/>
+        <fo:table-column column-number="2" column-width="proportional-column-width(1)"/>
+        <fo:table-body>
+          <fo:table-row font-size="9pt" height="16pt" padding-bottom="3pt">
+            <fo:table-cell display-align="after">
+              <fo:block text-align="left">something</fo:block>
+            </fo:table-cell>
+            <fo:table-cell display-align="after">
+              <fo:block text-align="right">or_other</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+        </fo:table-body>
+      </fo:table>
+      <!-- horizontal rule -->
+      <fo:block line-height="2pt" margin="0pt">
+        <fo:leader leader-pattern="rule" leader-length.optimum="100%" color="gray" rule-thickness="2pt"/>
+      </fo:block>
+    </fo:static-content>
+    <fo:static-content flow-name="xsl-region-after">
+      <!-- horizontal rule -->
+      <fo:block line-height="2pt" margin="0pt">
+        <fo:leader leader-pattern="rule" leader-length.optimum="100%" color="gray" rule-thickness="2pt"/>
+      </fo:block>
+      <fo:table table-layout="fixed" width="100%" font-size="9pt">
+        <fo:table-column column-number="1" column-width="proportional-column-width(1)"/>
+        <fo:table-column column-number="2" column-width="proportional-column-width(1)"/>
+        <fo:table-body>
+          <fo:table-row font-size="9pt" height="16pt" padding-bottom="3pt">
+            <fo:table-cell display-align="after">
+              <fo:block text-align="left">something</fo:block>
+            </fo:table-cell>
+            <fo:table-cell display-align="after">
+              <fo:block text-align="right">or_other</fo:block>
+            </fo:table-cell>
+          </fo:table-row>
+        </fo:table-body>
+      </fo:table>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body">
+      <!-- content -->
+      <!-- front -->
+      <!-- subject -->
+      <fo:block font-family="DroidSans" font-size="8pt" padding-top="18pt">RESEARCH ARTICLE</fo:block>
+      <!-- title -->
+      <fo:block font-family="DroidSans" font-size="18pt" padding-top="8pt">
+        <fo:inline>Loss of SOX9 Expression Is Associated with PSA Recurrence in ERG-Positive and PTEN Deleted Prostate Cancers</fo:inline>
+      </fo:block>
+      <!-- authors -->
+      <fo:block font-family="DroidSans" text-align="start" line-height="1.5" font-weight="bold" font-size="10pt" padding-top="12pt">
+        <fo:inline>Christoph Burdelski</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">1</fo:inline>
+        <fo:inline>, Erzen Bujupi</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">5</fo:inline>
+        <fo:inline>, Maria Christina Tsourlakis</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+        <fo:inline>, Claudia Hube-Magg</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+        <fo:inline>, Martina Kluth</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+        <fo:inline>, Nathaniel Melling</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">1</fo:inline>
+        <fo:inline>, Patrick Lebok</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+        <fo:inline>, Sarah Minner</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+        <fo:inline>, Christina Koop</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+        <fo:inline>, Markus Graefen</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">3</fo:inline>
+        <fo:inline>, Hans Heinzer</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">3</fo:inline>
+        <fo:inline>, Corinna Wittmer</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+        <fo:inline>, Guido Sauter</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+        <fo:inline>, Waldemar Wilczak</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+        <fo:inline>, Ronald Simon</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+        <fo:inline>, Thorsten Schlomm</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">3, 4</fo:inline>
+        <fo:inline>, Stefan Steurer</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+        <fo:inline>, Till Krech</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+      </fo:block>
+      <!-- affiliation(s) -->
+      <fo:block font-family="DroidSans" text-align="justify" font-size="8pt" padding-top="6pt" padding-bottom="6pt">
+        <fo:inline font-weight="bold">1</fo:inline>
+        <fo:inline>General, Visceral and Thoracic Surgery Department and Clinic, University Medical Center Hamburg-Eppendorf, Hamburg, Germany</fo:inline>
+        <fo:inline font-weight="bold">2</fo:inline>
+        <fo:inline>Institute of Pathology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany</fo:inline>
+        <fo:inline font-weight="bold">3</fo:inline>
+        <fo:inline>Martini-Clinic, Prostate Cancer Center, University Medical Center Hamburg-Eppendorf, Hamburg, Germany</fo:inline>
+        <fo:inline font-weight="bold">4</fo:inline>
+        <fo:inline>Department of Urology, Section for Translational Prostate Cancer Research, University Medical Center Hamburg-Eppendorf, Hamburg, Germany</fo:inline>
+        <fo:inline font-weight="bold">5</fo:inline>
+        <fo:inline>Department of Radiology, St. Franziskus-Hospital, Ahlen, Germany</fo:inline>
+      </fo:block>
+      <!-- preface -->
+      <fo:block border-style="solid" border-width="1.5pt">
+        <!-- abstract -->
+        <fo:block background-color="#DEDEDE" margin="6pt" padding="8pt">
+          <fo:block font-family="DroidSans" font-weight="bold" font-size="12pt">Abstract</fo:block>
+          <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+            <fo:inline>The transcription factor SOX9 plays a crucial role in normal prostate development and has been suggested to drive prostate carcinogenesis in concert with PTEN inactivation. To evaluate the clinical impact of SOX9 and its relationship with key genomic alterations in prostate cancer, SOX9 expression was analyzed by immunohistochemistry on a tissue microarray containing 11,152 prostate cancers. Data on ERG status and deletions of </fo:inline>
+            <fo:inline font-style="italic">PTEN</fo:inline>
+            <fo:inline>, 3p13, 5q21 and 6q15 were available from earlier studies. SOX9 expression levels were comparable in luminal cells of normal prostate glands (50% SOX9 positive) and 3,671 cancers lacking TMPRSS2:ERG fusion (55% SOX9 positive), but was markedly increased in 3,116 ERG-fusion positive cancers (81% SOX9 positive, p&amp;lt;0.0001). While no unequivocal changes in the SOX9 expression levels were found in different stages of ERG-negative cancers, a gradual decrease of SOX9 paralleled progression to advanced stage, high Gleason grade, metastatic growth, and presence of PTEN deletions in ERG-positive cancers (p&amp;lt;0.0001 each). SOX9 levels were unrelated to deletions of 3p, 5q, and 6q. Down-regulation of SOX9 expression was particularly strongly associated with PSA recurrence in ERG-positive tumors harboring PTEN deletions (p=0.001), but had no significant effect in ERG-negative cancers or in tumors with normal PTEN copy numbers. In summary, the results of our study argue against a tumor-promoting role of SOX9 in prostate cancer, but demonstrate that loss of SOX9 expression characterizes a particularly aggressive subset of ERG positive cancers harboring PTEN deletions.</fo:inline>
+          </fo:block>
+        </fo:block>
+        <fo:block font-family="DroidSans" margin-left="6pt" margin-right="6pt" font-size="8pt">
+          <!-- article meta information -->
+          <fo:block padding="4pt">
+            <fo:inline font-weight="bold">Received: </fo:inline>
+            <fo:inline>February 19, 2015; </fo:inline>
+            <fo:inline font-weight="bold">Accepted: </fo:inline>
+            <fo:inline>April 29, 2015; </fo:inline>
+            <fo:inline font-weight="bold">Published: </fo:inline>
+            <fo:inline>June  1, 2015</fo:inline>
+          </fo:block>
+          <!-- copyright -->
+          <fo:block padding="4pt">
+            <fo:inline font-family="DroidSans" font-weight="bold">Copyright: </fo:inline>
+            <fo:inline>© 2015 Burdelski et al. This is an open
+                   access article distributed under the terms of the
+                   Creative Commons Attribution License, which permits
+                   unrestricted use, distribution, and reproduction in any
+                   medium, provided the original author and source are
+                   credited.</fo:inline>
+          </fo:block>
+          <!-- conflicting interests -->
+          <fo:block padding="4pt">
+            <fo:inline font-weight="bold">Competing Interests: </fo:inline>
+            <fo:inline>The authors have declared that no competing interests exist.</fo:inline>
+          </fo:block>
+        </fo:block>
+      </fo:block>
+      <!-- body -->
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Introduction</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>Prostate cancer is the most prevalent cancer in men in Western societies [</fo:inline>
+        <fo:inline>1</fo:inline>
+        <fo:inline>]. While most tumors have a rather indolent clinical course, prostate cancer still represents the third most common cause of cancer related death in men. Established prognostic parameters are Gleason grade, tumor extent on biopsies, preoperative prostate-specific antigen (PSA), and clinical stage. Although statistically powerful, they are not sufficient for optimal individual treatment decisions. It is hoped that a better understanding of disease biology will eventually lead to the identification of clinically applicable molecular markers that enable a more reliable prediction of prostate cancer aggressiveness in individual patients.</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>SOX9 belongs to the SOX (SRY-related HMG box) family of developmental transcription factors (reviewed in [</fo:inline>
+        <fo:inline>2</fo:inline>
+        <fo:inline>]). It is essential for developmental processes involving sex determination (reviewed in [</fo:inline>
+        <fo:inline>3</fo:inline>
+        <fo:inline>]), cartilage development [</fo:inline>
+        <fo:inline>4</fo:inline>
+        <fo:inline>], gliogenesis [</fo:inline>
+        <fo:inline>5</fo:inline>
+        <fo:inline>], cardiogenesis [</fo:inline>
+        <fo:inline>6</fo:inline>
+        <fo:inline>], inner ear formation [</fo:inline>
+        <fo:inline>7</fo:inline>
+        <fo:inline>], formation of the hair stem cell compartment [</fo:inline>
+        <fo:inline>8</fo:inline>
+        <fo:inline>], progenitor cell pool maintenance in the pancreas [</fo:inline>
+        <fo:inline>9</fo:inline>
+        <fo:inline>] and organogenesis of the prostate gland [</fo:inline>
+        <fo:inline>10</fo:inline>
+        <fo:inline>]. Here, SOX9 is one of the earliest transcription factors expressed in the primordial prostate [</fo:inline>
+        <fo:inline>10</fo:inline>
+        <fo:inline>]. In the adult prostate, SOX9 expression is strongly expressed in the basal cells [</fo:inline>
+        <fo:inline>11</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>12</fo:inline>
+        <fo:inline>], where it has an important role for maintenance of normal prostate function [</fo:inline>
+        <fo:inline>11</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>13</fo:inline>
+        <fo:inline>]. Several lines of evidence exist that SOX9 might also contribute to prostate cancer initiation and progression, including up-regulation during early stages of prostate neoplasia in mouse models [</fo:inline>
+        <fo:inline>14</fo:inline>
+        <fo:inline>], as well as in human prostatic intraepithelial neoplasia (PIN) [</fo:inline>
+        <fo:inline>10</fo:inline>
+        <fo:inline>] and prostate cancers [</fo:inline>
+        <fo:inline>10</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>11</fo:inline>
+        <fo:inline>] [</fo:inline>
+        <fo:inline>14</fo:inline>
+        <fo:inline>–</fo:inline>
+        <fo:inline>17</fo:inline>
+        <fo:inline>]. Some of these studies on 98–387 patients have also linked SOX9 overexpression to high-grade and advanced tumors [</fo:inline>
+        <fo:inline>10</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>14</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>15</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>17</fo:inline>
+        <fo:inline>], hormone-refractory disease state [</fo:inline>
+        <fo:inline>15</fo:inline>
+        <fo:inline>] or poor patient prognosis [</fo:inline>
+        <fo:inline>14</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>15</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>17</fo:inline>
+        <fo:inline>].</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>The promising findings of these studies obtained in limited patient sets prompted us to further evaluate the possible clinical impact of SOX9 in prostate cancer. For this purpose, we took advantage of our preexisting tissue microarray containing &amp;gt;11,000 prostate cancer specimens with clinical follow-up and attached molecular database. The results of our study demonstrate that decreased, and not elevated, SOX9 protein expression is linked to poor prognosis and that this effect is strictly limited to the subset of prostate cancers harboring PTEN deletions.</fo:inline>
+      </fo:block>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Materials and Methods</fo:inline>
+      </fo:block>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Patients</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>Radical prostatectomy specimens were available from 11,152 patients, undergoing surgery between 1992 and 2011 at the Department of Urology and the Martini Clinics at the University Medical Center Hamburg-Eppendorf. Follow-up data were available for a total of 9,695 patients with a median follow-up of 31.2 months (range: 0.3 to 228 months; </fo:inline>
+        <fo:inline>Table 1</fo:inline>
+        <fo:inline>). Gleason grading was performed according to criteria summarized in the 2004 World Health Organization (WHO) classification of genito-urinary cancers [</fo:inline>
+        <fo:inline>18</fo:inline>
+        <fo:inline>]. Prostate specific antigen (PSA) values were measured following surgery and PSA recurrence was defined as the time point when postoperative PSA was at least 0.2 ng/ml and increasing at subsequent measurements. All prostate specimens were analyzed according to a standard procedure, including a complete embedding of the entire prostate for histological analysis [</fo:inline>
+        <fo:inline>19</fo:inline>
+        <fo:inline>]. The TMA manufacturing process was described earlier in detail [</fo:inline>
+        <fo:inline>20</fo:inline>
+        <fo:inline>]. In short, one 0.6 mm core was taken from a representative tissue block from each patient. The tissues were distributed among 24 TMA blocks, each containing 144 to 522 tumor samples. For internal controls, each TMA block also contained various control tissues, including normal prostate tissue. The molecular database attached to this TMA contained results on ERG expression in 9,619 [</fo:inline>
+        <fo:inline>21</fo:inline>
+        <fo:inline>], </fo:inline>
+        <fo:inline font-style="italic">ERG</fo:inline>
+        <fo:inline> break apart FISH analysis in 6,106 (expanded from [</fo:inline>
+        <fo:inline>21</fo:inline>
+        <fo:inline>]) and deletion status of 5q21 (</fo:inline>
+        <fo:inline font-style="italic">CHD1)</fo:inline>
+        <fo:inline> in 7,222 (expanded from [</fo:inline>
+        <fo:inline>22</fo:inline>
+        <fo:inline>]), 6q15 (</fo:inline>
+        <fo:inline font-style="italic">MAP3K7)</fo:inline>
+        <fo:inline> in 3,523 (expanded from [</fo:inline>
+        <fo:inline>23</fo:inline>
+        <fo:inline>]), </fo:inline>
+        <fo:inline font-style="italic">PTEN</fo:inline>
+        <fo:inline> (10q23) in 6,109 (expanded from [</fo:inline>
+        <fo:inline>24</fo:inline>
+        <fo:inline>]) and 3p13 (</fo:inline>
+        <fo:inline font-style="italic">FOXP1)</fo:inline>
+        <fo:inline> in 6,410 (expanded from [</fo:inline>
+        <fo:inline>25</fo:inline>
+        <fo:inline>]) cancers.</fo:inline>
+      </fo:block>
+      <fo:block padding-left="9pt" border-left-style="solid" border-width="1.5pt">
+        <fo:block padding-top="6pt" padding-bottom="6pt" font-size="9pt">
+          <fo:block padding="4pt">
+            <fo:inline font-weight="bold">Competing Interests: </fo:inline>
+            <fo:inline>Table 1</fo:inline>
+          </fo:block>
+          <!-- caption title -->
+          <fo:inline font-family="DroidSans" font-size="9pt" font-weight="bold">
+            <fo:inline>Composition of the prognosis tissue microarray containing 11,152 prostate cancer specimens.</fo:inline>
+          </fo:inline>
+        </fo:block>
+        <!-- table -->
+        <fo:block-container margin="0pt">
+          <fo:table width="100%">
+            <!-- columns -->
+            <fo:table-column column-number="1" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="2" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="3" column-width="proportional-column-width(1)"/>
+            <!-- header -->
+            <fo:table-header line-height="15pt" font-size="8pt" text-align="left" font-weight="bold" border-color="gray" border-width="1.5pt" border-before-style="solid" border-after-style="solid">
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline> </fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="2">
+                  <fo:block text-align="center">
+                    <fo:inline>No. of patients</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline> </fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Study cohort on tissue microarray (n = 11,152)</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Biochemical relapse among categories (n = 1,824)</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+            </fo:table-header>
+            <!-- body -->
+            <fo:table-body font-size="8pt" line-height="12pt" text-align="left">
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Follow-up (mo)</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline> </fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline> </fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Mean</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>53.4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>-</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Median</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>36.8</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>-</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Age (y)</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>&amp;lt;50</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>318</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>49</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>50–60</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>2,768</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>460</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>60–70</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>6,548</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1,081</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>&amp;gt;70</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1,439</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>232</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Pretreatment PSA (ng/ml)</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>&amp;lt;4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1,407</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>142</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>4–10</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>6,735</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>827</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>&amp;gt;10–20</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>2,159</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>521</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>&amp;gt;20</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>720</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>309</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT category (AJCC 2002)</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT2</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>7,370</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>570</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT3a</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>2,409</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>587</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT3b</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1,262</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>618</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>63</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>49</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Gleason grade</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>≤3+3</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>2,859</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>193</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>3+4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>6,183</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>849</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>4+3</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1,565</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>573</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>≥4+4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>482</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>208</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pN category</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pN0</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>6,117</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1,126</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pN+</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>561</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>291</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Surgical margin</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>negative</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>8,984</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1,146</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>positive</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1,970</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>642</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+            </fo:table-body>
+          </fo:table>
+        </fo:block-container>
+      </fo:block>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Ethics statement</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>The usage of archived diagnostic left-over tissues for manufacturing of tissue microarrays and their analysis for research purposes as well as patient data analysis has been approved by local laws (HmbKHG, §12,1) and by the local ethics committee (Ethics commission Ärztekammer Hamburg, WF-049/09 and PV3652). According to local laws, informed consent was not required for this study. Patient records/information was anonymized and de-identified prior to analysis. All work has been carried out in compliance with the Helsinki Declaration.</fo:inline>
+      </fo:block>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Immunohistochemistry</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>Freshly cut TMA sections were immunostained on one day and in one experiment. Slides were de-waxed and exposed to heat-induced antigen retrieval for 5 minutes in an autoclave at 121°C in pH 9 Dako Target Retrieval Solution. Primary antibody specific for SOX9 (mouse monoclonal antibody (clone 3C10), Abnova, Taipei City, Taiwan; cat# H00006662-M02; dilution 1:700) was applied at 37°C for 60 minutes. Bound antibody was then visualized using the EnVision Kit (Dako, Glostrup, Denmark) according to the manufacturer´s directions. If present, SOX9 staining was typically homogenous in the nuclei of all cancer cells of the tissue spots. The percentage of positive tumor cells (typically 100%) was thus not recorded separately. Faint cytoplasmic staining, which accompanied nuclear staining in most tissue spots, was attributed to non-specific staining and not considered for the analysis. Nuclear staining intensity of all cases was semiquantitatively assessed in four categories: negative, weak, moderate and strong.</fo:inline>
+      </fo:block>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Statistics</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>Statistical calculations were performed with JMP 9 software (SAS Institute Inc., NC, USA). Contingency tables and the chi</fo:inline>
+        <fo:inline vertical-align="super" font-size="8pt">2</fo:inline>
+        <fo:inline>-test were applied to search for associations between molecular parameters and tumor phenotype. Survival curves were calculated according to Kaplan-Meier. The Log-Rank test was applied to detect significant differences between groups. Cox proportional hazards regression analysis was performed to test the statistical independence and significance between pathological, molecular and clinical variables.</fo:inline>
+      </fo:block>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Results</fo:inline>
+      </fo:block>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Technical aspects</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>A total of 3,587 of 11,152 (32%) tissue samples were non-informative. Three TMA sections comprising 1,271 samples were excluded from analysis because of insufficient staining quality. These three sections have not been re-stained in order to avoid a staining intensity bias that might occur when IHC experiments are repeated on different days. In another 2,316 tissue spots, no IHC result was obtained due to the complete lack of tissue or absence of unequivocal cancer cells.</fo:inline>
+      </fo:block>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>SOX9 in prostate cancer</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>Nuclear SOX9 expression was typically strong in basal cells of normal prostate glands. In normal luminal cells, moderate to strong staining was found in about 50% of analyzed cases. In prostate cancer, nuclear SOX9 expression was observed in 67% of 7,565 interpretable cases. Detectable SOX9 staining was considered weak in 15%, moderate in 39% and strong in 13% of cases. Examples of tissue spots with variable levels of SOX9 immunostaining are shown in </fo:inline>
+        <fo:inline>Fig 1</fo:inline>
+        <fo:inline>.</fo:inline>
+      </fo:block>
+      <fo:block-container margin="0pt">
+        <fo:block width="100%" border-style="solid" border-width="normal" text-align="right">
+          <fo:external-graphic content-width="160mm"/>
+        </fo:block>
+      </fo:block-container>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Association with ERG status</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>Data on both interpretable SOX9 staining and ERG status were available from 7,565 tumors if the ERG status was determined by IHC analysis and from 4,454 tumors if ERG rearrangement was analysed by FISH. SOX9 staining was strongly linked to ERG-positive cancers irrespective of whether the ERG status was analyzed by IHC or FISH: SOX9 expression was found in 82% of ERG IHC-positive and 83% of ERG FISH-rearranged cancers, but only in 55% of ERG IHC-negative and 62% of ERG FISH-normal cancers (p&amp;lt;0.0001 each, </fo:inline>
+        <fo:inline>Fig 2</fo:inline>
+        <fo:inline>).</fo:inline>
+      </fo:block>
+      <fo:block-container margin="0pt">
+        <fo:block width="100%" border-style="solid" border-width="normal" text-align="right">
+          <fo:external-graphic content-width="160mm"/>
+        </fo:block>
+      </fo:block-container>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Association with other key genomic alterations</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>Earlier studies have provided evidence for distinct and clinically relevant molecular subgroups of prostate cancers defined by gene rearrangements and several genomic deletions. Others and us described a strong link between PTEN, 3p13 deletions and ERG positivity, and between 5q21, 6q15 deletions and ERG negativity [</fo:inline>
+        <fo:inline>22</fo:inline>
+        <fo:inline>–</fo:inline>
+        <fo:inline>24</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>26</fo:inline>
+        <fo:inline>–</fo:inline>
+        <fo:inline>28</fo:inline>
+        <fo:inline>]. To study whether SOX9 expression might be linked to any of these alterations, SOX9 data were compared with preexisting findings on deletions of PTEN, 3p13, 6q15 and 5q21. In the analysis of all tumors, SOX9 staining was positively associated with deletions of PTEN (p&amp;lt;0.0001) and 3p13 (p = 0.001) and negatively associated with deletions of 6q15 (p = 0.0002) and 5q21 (p&amp;lt;0.0001, </fo:inline>
+        <fo:inline>Fig 3A</fo:inline>
+        <fo:inline>). This was expected because all these deletions—as like SOX9—are known to be tightly linked to the ERG status. Indeed, when stratified for subsets of ERG-fusion positive and negative cancers, most of the association disappeared. However, for PTEN, the separate analysis of ERG-positive and ERG-negative cancers revealed a striking bimodal relationship with SOX9 expression. PTEN deletions were positively associated with SOX9 expression in ERG-negative (p&amp;lt;0.0001, </fo:inline>
+        <fo:inline>Fig 3B</fo:inline>
+        <fo:inline>) but inversely linked to SOX9 expression in ERG-positive cancers (p&amp;lt;0.0001, </fo:inline>
+        <fo:inline>Fig 3C</fo:inline>
+        <fo:inline>).</fo:inline>
+      </fo:block>
+      <fo:block-container margin="0pt">
+        <fo:block width="100%" border-style="solid" border-width="normal" text-align="right">
+          <fo:external-graphic content-width="160mm"/>
+        </fo:block>
+      </fo:block-container>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Relationship with tumor phenotype</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>Reduced SOX9 expression was linked to an unfavorable tumor phenotype, including late stage, high Gleason grade, and elevated preoperative PSA levels (p&amp;lt;0.0001 each, </fo:inline>
+        <fo:inline>Table 2</fo:inline>
+        <fo:inline>) in all cancers. However, separate analyses of ERG-positive and ERG-negative cancers revealed that this association was solely driven by the subset of ERG-positive cancers. Here, reduced SOX9 expression was strongly linked to advanced tumor stage, high Gleason grade, high preoperative PSA levels, presence of nodal metastases (p&amp;lt;0.0001 each) and positive surgical margin (p = 0.001) (</fo:inline>
+        <fo:inline>Table 3</fo:inline>
+        <fo:inline>). In contrast, no unequivocal differences were found between SOX9 levels and tumor phenotype in ERG-negative cancers, although significant p-values were still obtained due to the very high number of samples in our study (</fo:inline>
+        <fo:inline>S1 Table</fo:inline>
+        <fo:inline>).</fo:inline>
+      </fo:block>
+      <fo:block padding-left="9pt" border-left-style="solid" border-width="1.5pt">
+        <fo:block padding-top="6pt" padding-bottom="6pt" font-size="9pt">
+          <fo:block padding="4pt">
+            <fo:inline font-weight="bold">Competing Interests: </fo:inline>
+            <fo:inline>Table 2</fo:inline>
+          </fo:block>
+          <!-- caption title -->
+          <fo:inline font-family="DroidSans" font-size="9pt" font-weight="bold">
+            <fo:inline>Clinico-pathological association of SOX9 immunostaining in all cancers.</fo:inline>
+          </fo:inline>
+        </fo:block>
+        <!-- table -->
+        <fo:block-container margin="0pt">
+          <fo:table width="100%">
+            <!-- columns -->
+            <fo:table-column column-number="1" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="2" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="3" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="4" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="5" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="6" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="7" column-width="proportional-column-width(1)"/>
+            <!-- header -->
+            <fo:table-header line-height="15pt" font-size="8pt" text-align="left" font-weight="bold" border-color="gray" border-width="1.5pt" border-before-style="solid" border-after-style="solid">
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Parameter</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Evaluable (n)</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="4">
+                  <fo:block text-align="center">
+                    <fo:inline>SOX9 (%)</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>P value</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline> </fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline> </fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>negative</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>weak</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>moderate</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>strong</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="7" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline> </fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+            </fo:table-header>
+            <!-- body -->
+            <fo:table-body font-size="8pt" line-height="12pt" text-align="left">
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Total</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>7565</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>33</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>15</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>39</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>13</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="2">
+                  <fo:block text-align="center">
+                    <fo:inline>Tumor stage</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="char">
+                    <fo:inline>&amp;lt;0.0001</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT2</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>4921</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>32</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>14</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>40</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>15</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT3a</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1725</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>34</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>18</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>37</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>11</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT3b</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>848</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>34</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>20</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>36</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>10</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>40</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>43</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>25</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>28</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>5</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="2">
+                  <fo:block text-align="center">
+                    <fo:inline>Gleason grade</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="char">
+                    <fo:inline>&amp;lt;0.0001</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>≤3+3</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1741</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>38</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>11</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>37</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>14</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>3+4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>4363</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>30</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>16</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>40</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>14</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>4+3</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1115</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>34</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>20</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>36</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>10</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>≥4+4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>306</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>38</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>19</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>32</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>11</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="2">
+                  <fo:block text-align="center">
+                    <fo:inline>Lymph node metastasis</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="char">
+                    <fo:inline>0.04</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>N0</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>4233</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>32</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>17</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>39</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>13</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>N+</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>371</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>36</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>18</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>37</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>9</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="3">
+                  <fo:block text-align="center">
+                    <fo:inline>Preoperative PSA level (ng/ml)</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="char">
+                    <fo:inline>&amp;lt;0.0001</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>&amp;lt;4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>905</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>25</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>14</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>43</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>18</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>4–10</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>4597</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>31</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>15</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>41</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>14</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>&amp;gt;10–20</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1487</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>37</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>18</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>33</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>12</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>&amp;gt;20</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>491</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>48</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>17</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>29</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>6</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="2">
+                  <fo:block text-align="center">
+                    <fo:inline>Surgical margin</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="char">
+                    <fo:inline>0.01</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>negative</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>6053</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>32</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>15</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>39</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>14</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>positive</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1374</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>37</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>16</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>36</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>12</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="7" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="char">
+                    <fo:inline> </fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+            </fo:table-body>
+          </fo:table>
+        </fo:block-container>
+      </fo:block>
+      <fo:block padding-left="9pt" border-left-style="solid" border-width="1.5pt">
+        <fo:block padding-top="6pt" padding-bottom="6pt" font-size="9pt">
+          <fo:block padding="4pt">
+            <fo:inline font-weight="bold">Competing Interests: </fo:inline>
+            <fo:inline>Table 3</fo:inline>
+          </fo:block>
+          <!-- caption title -->
+          <fo:inline font-family="DroidSans" font-size="9pt" font-weight="bold">
+            <fo:inline>Clinico-pathological association of SOX9 immunostaining in the ERG positive subset.</fo:inline>
+          </fo:inline>
+        </fo:block>
+        <!-- table -->
+        <fo:block-container margin="0pt">
+          <fo:table width="100%">
+            <!-- columns -->
+            <fo:table-column column-number="1" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="2" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="3" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="4" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="5" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="6" column-width="proportional-column-width(1)"/>
+            <fo:table-column column-number="7" column-width="proportional-column-width(1)"/>
+            <!-- header -->
+            <fo:table-header line-height="15pt" font-size="8pt" text-align="left" font-weight="bold" border-color="gray" border-width="1.5pt" border-before-style="solid" border-after-style="solid">
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Parameter</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Evaluable (n)</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="4">
+                  <fo:block text-align="center">
+                    <fo:inline>SOX9 (%)</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>P value</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline> </fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline> </fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>negative</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>weak</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>moderate</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>strong</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="7" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline> </fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+            </fo:table-header>
+            <!-- body -->
+            <fo:table-body font-size="8pt" line-height="12pt" text-align="left">
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>Total</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>3116</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>18</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>15</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>49</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>18</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="2">
+                  <fo:block text-align="center">
+                    <fo:inline>Tumor stage</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="char">
+                    <fo:inline>&amp;lt;0.0001</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT2</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1898</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>15</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>12</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>52</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>21</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT3a</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>839</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>20</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>19</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>47</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>14</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT3b</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>352</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>30</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>21</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>36</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>14</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>pT4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>15</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>33</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>33</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>33</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>0</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="2">
+                  <fo:block text-align="center">
+                    <fo:inline>Gleason grade</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="char">
+                    <fo:inline>&amp;lt;0.0001</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>≤3+3</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>695</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>21</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>10</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>50</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>19</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>3+4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1879</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>16</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>16</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>50</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>19</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>4+3</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>433</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>23</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>22</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>42</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>14</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>≥4+4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>93</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>30</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>19</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>40</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>11</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="2">
+                  <fo:block text-align="center">
+                    <fo:inline>Lymph node metastasis</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="char">
+                    <fo:inline>&amp;lt;0.0001</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>N0</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1757</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>18</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>17</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>48</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>18</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>N+</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>156</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>31</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>19</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>42</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>8</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="3">
+                  <fo:block text-align="center">
+                    <fo:inline>Preoperative PSA level (ng/ml)</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="char">
+                    <fo:inline>&amp;lt;0.0001</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>&amp;lt;4</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>428</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>16</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>13</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>50</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>22</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>4–10</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>1924</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>16</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>14</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>52</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>18</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>&amp;gt;10–20</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>546</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>21</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>19</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>41</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>19</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>&amp;gt;20</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>181</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>32</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>21</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>39</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>8</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="2">
+                  <fo:block text-align="center">
+                    <fo:inline>Surgical margin</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="char">
+                    <fo:inline>0.001</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>negative</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>2466</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>17</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>15</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>50</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>19</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+              <fo:table-row>
+                <fo:table-cell column-number="1" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>positive</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="2" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>593</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="3" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>24</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="4" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>16</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="5" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>45</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="6" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="left">
+                    <fo:inline>16</fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+                <fo:table-cell column-number="7" number-rows-spanned="1" number-columns-spanned="1">
+                  <fo:block text-align="char">
+                    <fo:inline> </fo:inline>
+                  </fo:block>
+                </fo:table-cell>
+              </fo:table-row>
+            </fo:table-body>
+          </fo:table>
+        </fo:block-container>
+      </fo:block>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Relationship with PSA recurrence</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>The prognostic value of SOX9 expression depended on the ERG status. Absent or reduced SOX9 expression was strongly linked to biochemical (PSA) recurrence in the subset of ERG-positive cancers (p&amp;lt;0.0001, </fo:inline>
+        <fo:inline>Fig 4A</fo:inline>
+        <fo:inline>), but not in ERG-negative cancers (p = 0.80, </fo:inline>
+        <fo:inline>Fig 4B</fo:inline>
+        <fo:inline>). Because SOX9 expression was linked to the PTEN status, we also compared the prognostic impact of SOX9 in cancers with and without PTEN deletions. This analysis revealed, that a loss of SOX9 expression was strongly linked to PSA recurrence in PTEN-deleted cancers (p = 0.008, </fo:inline>
+        <fo:inline>Fig 4C</fo:inline>
+        <fo:inline>) but only weakly in cancers with normal PTEN copy numbers (p = 0.02, </fo:inline>
+        <fo:inline>Fig 4D</fo:inline>
+        <fo:inline>). The strongest association between loss of SOX9 and poor outcome was found in the subset of cancers harboring both ERG-fusion and PTEN deletion (p = 0.001, </fo:inline>
+        <fo:inline>Fig 4E</fo:inline>
+        <fo:inline>), while SOX9 was unrelated to prognosis in ERG-positive and ERG-negative cancers with normal PTEN status (p = 0.56 and p = 0.73; </fo:inline>
+        <fo:inline>Fig 4G and 4F</fo:inline>
+        <fo:inline>) or in ERG-negative cancers with PTEN deletion (p = 0.27; </fo:inline>
+        <fo:inline>Fig 4H</fo:inline>
+        <fo:inline>).</fo:inline>
+      </fo:block>
+      <fo:block-container margin="0pt">
+        <fo:block width="100%" border-style="solid" border-width="normal" text-align="right">
+          <fo:external-graphic content-width="160mm"/>
+        </fo:block>
+      </fo:block-container>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Multivariate analysis</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>In order to estimate whether the clinical impact of SOX9 expression in ERG-positive cancers harboring PTEN deletions was independent from established prognostic parameters, we performed four different types of multivariate analyses Scenario 1 evaluated all postoperatively available parameters including pathological tumor stage, pathological lymph node status (pN), surgical margin status, preoperative PSA value and pathological Gleason grade obtained after the morphological evaluation of the entire resected prostate. In scenario 2, all postoperatively available parameters with exception of nodal status were included. The rational for this approach was that the indication and extent of lymph node dissection is not standardized in the surgical therapy of prostate cancer and that excluding pN in multivariate analysis can markedly increase case numbers. Two additional scenarios had the purpose to model the preoperative situation as much as possible. Scenario 3 included SOX9 expression, preoperative PSA, clinical tumor stage (cT stage) and Gleason grade obtained on the prostatectomy specimen. Since postoperative determination of a tumor’s Gleason grade is “better” than the preoperatively determined Gleason grade (subjected to sampling errors and consequently under-grading in more than one third of cases [</fo:inline>
+        <fo:inline>29</fo:inline>
+        <fo:inline>]), another multivariate analysis was added. In scenario 4, the preoperative Gleason grade obtained on the original biopsy was combined with preoperative PSA, cT stage and SOX9 expression. This analysis, which was limited to the subset of ERG-positive and PTEN-deleted cancers where SOX9 had strongest prognostic impact in univariate analysis, revealed that the prognostic value of SOX9 was not independent from the established prognosticators (</fo:inline>
+        <fo:inline>S2 Table</fo:inline>
+        <fo:inline>).</fo:inline>
+      </fo:block>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Discussion</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>The results of our study show that a clinical relevance of SOX9 expression levels exists in prostate cancer that greatly depends on the molecular context of the tumor cells. In particular, our data demonstrate that the prognostic relevance of SOX9 expression is strictly limited to the subset of ERG-positive tumors harboring PTEN deletions.</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>The fraction of cancers with detectable SOX9 expression in this study was 67%, including 51% with moderate to strong staining. These numbers are in the upper range of earlier immunohistochemistry studies reporting 41–55% SOX9 positive cancers by conventional large section analysis involving up to 36 tumors [</fo:inline>
+        <fo:inline>11</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>16</fo:inline>
+        <fo:inline>], or of TMA studies reporting 46–100% SOX9 positivity in up to 387 prostate cancers [</fo:inline>
+        <fo:inline>10</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>14</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>17</fo:inline>
+        <fo:inline>]. It is most likely that these differences are first of all related to technical issues, including usage of different antibodies and scoring criteria. That comparable fractions of SOX9 positive cancers can be found with both large section and TMA approaches suggests that our analysis provided representative data, which are not markedly influenced by sampling error issues that can potentially occur in studies evaluating small tissue cores measuring only 0.6 mm in diameter per patient.</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>The successful analysis of more than 7,500 prostate cancers did not—in a general survey on all tumors—reveal relevant associations of an increased SOX9 expression with unfavorable tumor phenotype or poor patient prognosis as suggested by earlier works [</fo:inline>
+        <fo:inline>10</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>14</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>15</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>17</fo:inline>
+        <fo:inline>]. Multiple studies involving 98–387 cancers had previously suggested a link between SOX9 expression and poor tumor features, such as high Gleason grade [</fo:inline>
+        <fo:inline>10</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>14</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>15</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>17</fo:inline>
+        <fo:inline>] and even shortened overall patient survival [</fo:inline>
+        <fo:inline>14</fo:inline>
+        <fo:inline>]. In contrast, our data revealed a better patient outcome in case of high SOX9 expression levels in subgroups. In line with our findings, Zhong et al. demonstrate a prolongued recurrence-free interval for tumors with elevated SOX9 levels in a cohort of 147 patients [</fo:inline>
+        <fo:inline>15</fo:inline>
+        <fo:inline>].</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>The molecular database attached to our prostate cancer TMA enabled an evaluation of the relationship between SOX9 expression and other key molecular features of prostate cancer. About 50% of prostate cancers are characterized by the TMPRSS2:ERG fusion, which results in overexpression of the ERG transcription factor and massive transcriptional changes [</fo:inline>
+        <fo:inline>30</fo:inline>
+        <fo:inline>]. Since ERG regulates the androgen-receptor (AR) responsive SOX9 indirectly by functioning as a pioneer factor to open a cryptic AR-regulated enhancer in the SOX9 gene (24985976)[</fo:inline>
+        <fo:inline>31</fo:inline>
+        <fo:inline>], it was not surprising to find a strong link between the ERG-fusion positive genotype and strong SOX9 expression. The inclusion of deletion data from multiple chromosomal loci revealed further, that the relationship of SOX9 and ERG expression largely depended on whether or not a PTEN deletion was present in a tumor. Moreover, the data demonstrated a strikingly poor disease outcome in a subgroup of 101 patients with ERG positive, PTEN deleted cancers with absent SOX9 expression. These findings suggest strong and clinically relevant interactions between these proteins. A functional relationship of PTEN and SOX9 is indeed supported by two studies using prostate cancer mouse models [</fo:inline>
+        <fo:inline>14</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>16</fo:inline>
+        <fo:inline>]. These studies have suggested a cooperative role of SOX9 and PTEN loss for prostate tumor formation [</fo:inline>
+        <fo:inline>14</fo:inline>
+        <fo:inline>] by SOX9-dependent inhibition of the retinoblastoma (RB1) tumor suppressor [</fo:inline>
+        <fo:inline>16</fo:inline>
+        <fo:inline>] in order to bypass cellular senescence induced by PTEN loss [</fo:inline>
+        <fo:inline>32</fo:inline>
+        <fo:inline>]. Such a cooperative role fits well to our observation that SOX9 expression was linked to PTEN deletion at least in the subset of cancers lacking ERG fusion.</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>However, the inverse association between loss of SOX9 overexpression and PTEN deletion found in ERG-positive cancers indicates that very high SOX9 protein levels—as induced by ERG-fusion—might not per se provide a selection advantage to PTEN-deleted cancer cells. Moreover, since progression to high-grade disease was paralleled by a reduction of SOX9 expression in ERG-positive cancers, very strong SOX9 overexpression may even counteract tumor growth. This could be mechanistically explained through antagonistic effects in pathways governed by both ERG and SOX9. For example, while ERG activates canonical ß-catenin/WNT signaling [</fo:inline>
+        <fo:inline>33</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>34</fo:inline>
+        <fo:inline>], SOX9 contributes to switching between growth-promoting and differentiation-initiating consequences of this pathway [</fo:inline>
+        <fo:inline>35</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>36</fo:inline>
+        <fo:inline>]. It is, thus, tempting to speculate that strong SOX9 overexpression inhibits progression through forced differentiation, and that ERG-positive cancer cells consequently need to undergo adaptation steps to adjust SOX9 expression to a level that is compatible with tumor progression. Since the worst prognosis was found for PTEN-deleted and ERG-positive tumors that completely lacked any detectably SOX9 expression, SOX9 might even impair tumor growth in this specific molecular background. Such a crucial role of the molecular environment on the tumor-promoting or tumor-suppressive activity of SOX9 is also supported by cell line and xenograft experiments showing that SOX9 overexpression can lead to enhanced tumor growth and invasion in some cell lines [</fo:inline>
+        <fo:inline>13</fo:inline>
+        <fo:inline>] but to reduced tumorigenicity in others [</fo:inline>
+        <fo:inline>37</fo:inline>
+        <fo:inline>].</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>Remarkably, our data suggest that SOX9 may provide substantial additional prognostic information beyond PTEN deletion—one of the strongest known single prognosticators in prostate cancer, but at the same time also demonstrate that the value of SOX9 as a putative molecular marker is limited to the small subset of about 10–15% of prostate cancers harboring both ERG-fusion and PTEN deletion. SOX9 is thus an interesting example for possibly many more genes that may exert either a tumor promoting or a tumor suppressive action depending on the individual molecular scaffold resulting from specific combinations of genomic changes in prostate cancer cells [</fo:inline>
+        <fo:inline>33</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>34</fo:inline>
+        <fo:inline>,</fo:inline>
+        <fo:inline>38</fo:inline>
+        <fo:inline>]. Such observations challenge the concept of generally applicable multiparameter prognostic tests that generate a simple prognosis score with a similar impact on all cancers.</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>In summary, the results of our study demonstrate that SOX9 is expressed in a large fraction of prostate cancers, but has a variable prognostic impact depending of the molecular environment. The striking limitation of the prognostic impact of SOX9 loss to the subset of ERG-positive cancers with PTEN deletions provides further evidence for the existence of clinically relevant molecularly distinct subgroups of prostate cancers.</fo:inline>
+      </fo:block>
+      <fo:block font-family="DroidSans" font-size="10pt" font-weight="bold" padding-top="9pt">
+        <fo:inline>Numbers of patients at risk of biochemical recurrence in ERG-negative and ERG positive cancers.</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>(DOC)</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>(DOC)</fo:inline>
+      </fo:block>
+      <fo:block font-family="Gentium" padding="6pt" font-size="10pt" line-height="1.5">
+        <fo:inline>(XLS)</fo:inline>
+      </fo:block>
+      <!-- back -->
+      <!-- acknowlegements -->
+      <fo:block padding-top="9pt">
+        <fo:inline font-family="DroidSans" font-size="10pt" font-weight="bold">Acknowlegements</fo:inline>
+      </fo:block>
+      <fo:block margin-top="10pt" font-size="10pt" font-weight="bold">
+        <fo:inline>References</fo:inline>
+      </fo:block>
+      <fo:block margin-top="8pt" text-align="justify" font-size="8pt" font-family="serif">
+        <fo:list-block provisional-distance-between-starts="6mm" end-indent="12mm" start-indent="12mm">
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>1. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>A Jemal, E Ward, X Wu, HJ Martin, CC McLaughlin, MJ Thun</fo:inline>
+                <fo:inline>(2005)</fo:inline>
+                <fo:inline>Geographic patterns of prostate cancer mortality and variations in access to medical care in the United States</fo:inline>
+                <fo:inline>Cancer Epidemiol Biomarkers Prev</fo:inline>
+                <fo:inline>14:</fo:inline>
+                <fo:inline>590-595</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>2. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>V Lefebvre, B Dumitriu, A Penzo-Mendez, Y Han, B Pallavi</fo:inline>
+                <fo:inline>(2007)</fo:inline>
+                <fo:inline>Control of cell fate and differentiation by Sry-related high-mobility-group box (Sox) transcription factors</fo:inline>
+                <fo:inline>Int J Biochem Cell Biol</fo:inline>
+                <fo:inline>39:</fo:inline>
+                <fo:inline>2195-2214</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>3. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>P Koopman</fo:inline>
+                <fo:inline>(2005)</fo:inline>
+                <fo:inline>Sex determination: a tale of two Sox genes</fo:inline>
+                <fo:inline>Trends Genet</fo:inline>
+                <fo:inline>21:</fo:inline>
+                <fo:inline>367-370</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>4. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>W Bi, JM Deng, Z Zhang, RR Behringer, B de Crombrugghe</fo:inline>
+                <fo:inline>(1999)</fo:inline>
+                <fo:inline>Sox9 is required for cartilage formation</fo:inline>
+                <fo:inline>Nat Genet</fo:inline>
+                <fo:inline>22:</fo:inline>
+                <fo:inline>85-89</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>5. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>CC Stolt, P Lommes, E Sock, MC Chaboissier, A Schedl, M Wegner</fo:inline>
+                <fo:inline>(2003)</fo:inline>
+                <fo:inline>The Sox9 transcription factor determines glial fate choice in the developing spinal cord</fo:inline>
+                <fo:inline>Genes Dev</fo:inline>
+                <fo:inline>17:</fo:inline>
+                <fo:inline>1677-1689</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>6. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>H Akiyama, MC Chaboissier, RR Behringer, DH Rowitch, A Schedl, JA Epstein</fo:inline>
+                <fo:inline>(2004)</fo:inline>
+                <fo:inline>Essential role of Sox9 in the pathway that controls formation of cardiac valves and septa</fo:inline>
+                <fo:inline>Proc Natl Acad Sci U S A</fo:inline>
+                <fo:inline>101:</fo:inline>
+                <fo:inline>6502-6507</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>7. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>KM Taylor, C Labonne</fo:inline>
+                <fo:inline>(2005)</fo:inline>
+                <fo:inline>SoxE factors function equivalently during neural crest and inner ear development and their activity is regulated by SUMOylation</fo:inline>
+                <fo:inline>Dev Cell</fo:inline>
+                <fo:inline>9:</fo:inline>
+                <fo:inline>593-603</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>8. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>VP Vidal, MC Chaboissier, S Lutzkendorf, G Cotsarelis, P Mill, CC Hui</fo:inline>
+                <fo:inline>(2005)</fo:inline>
+                <fo:inline>Sox9 is essential for outer root sheath differentiation and the formation of the hair stem cell compartment</fo:inline>
+                <fo:inline>Curr Biol</fo:inline>
+                <fo:inline>15:</fo:inline>
+                <fo:inline>1340-1351</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>9. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>PA Seymour, KK Freude, MN Tran, EE Mayes, J Jensen, R Kist</fo:inline>
+                <fo:inline>(2007)</fo:inline>
+                <fo:inline>SOX9 is required for maintenance of the pancreatic progenitor cell pool</fo:inline>
+                <fo:inline>Proc Natl Acad Sci U S A</fo:inline>
+                <fo:inline>104:</fo:inline>
+                <fo:inline>1865-1870</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>10. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>EM Schaeffer, L Marchionni, Z Huang, B Simons, A Blackman, W Yu</fo:inline>
+                <fo:inline>(2008)</fo:inline>
+                <fo:inline>Androgen-induced programs for prostate epithelial growth and invasion arise in embryogenesis and are reactivated in cancer</fo:inline>
+                <fo:inline>Oncogene</fo:inline>
+                <fo:inline>27:</fo:inline>
+                <fo:inline>7180-7191</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>11. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>H Wang, NC McKnight, T Zhang, ML Lu, SP Balk, X Yuan</fo:inline>
+                <fo:inline>(2007)</fo:inline>
+                <fo:inline>SOX9 is expressed in normal prostate basal cells and regulates androgen receptor expression in prostate cancer cells</fo:inline>
+                <fo:inline>Cancer Res</fo:inline>
+                <fo:inline>67:</fo:inline>
+                <fo:inline>528-536</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>12. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>MK Thomsen, CM Butler, MM Shen, A Swain</fo:inline>
+                <fo:inline>(2008)</fo:inline>
+                <fo:inline>Sox9 is required for prostate development</fo:inline>
+                <fo:inline>Dev Biol</fo:inline>
+                <fo:inline>316:</fo:inline>
+                <fo:inline>302-311</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>13. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>H Wang, I Leav, S Ibaragi, M Wegner, GF Hu, ML Lu</fo:inline>
+                <fo:inline>(2008)</fo:inline>
+                <fo:inline>SOX9 is expressed in human fetal prostate epithelium and enhances prostate cancer invasion</fo:inline>
+                <fo:inline>Cancer Res</fo:inline>
+                <fo:inline>68:</fo:inline>
+                <fo:inline>1625-1630</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>14. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>MK Thomsen, L Ambroisine, S Wynn, KS Cheah, CS Foster, G Fisher</fo:inline>
+                <fo:inline>(2010)</fo:inline>
+                <fo:inline>SOX9 elevation in the prostate promotes proliferation and cooperates with PTEN loss to drive tumor formation</fo:inline>
+                <fo:inline>Cancer Res</fo:inline>
+                <fo:inline>70:</fo:inline>
+                <fo:inline>979-987</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>15. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>W-d Zhong, G-q Qin, Q-s Dai, Z-d Han, S-m Chen, X-h Ling</fo:inline>
+                <fo:inline>(2012)</fo:inline>
+                <fo:inline>SOXs in human prostate cancer: implication as progression and prognosis factors</fo:inline>
+                <fo:inline>BMC cancer</fo:inline>
+                <fo:inline>12:</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>16. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>G Wang, A Lunardi, J Zhang, Z Chen, U Ala, KA Webster</fo:inline>
+                <fo:inline>(2013)</fo:inline>
+                <fo:inline>Zbtb7a suppresses prostate cancer through repression of a Sox9-dependent pathway for cellular senescence bypass and tumor invasion</fo:inline>
+                <fo:inline>Nat Genet</fo:inline>
+                <fo:inline>45:</fo:inline>
+                <fo:inline>739-746</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>17. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>GQ Qin, HC He, ZD Han, YX Liang, SB Yang, YQ Huang</fo:inline>
+                <fo:inline>(2014)</fo:inline>
+                <fo:inline>Combined overexpression of HIVEP3 and SOX9 predicts unfavorable biochemical recurrence-free survival in patients with prostate cancer</fo:inline>
+                <fo:inline>Onco Targets Ther</fo:inline>
+                <fo:inline>7:</fo:inline>
+                <fo:inline>137-146</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>18. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>JN Eble, G Sauter, J Epstein, I Sesterhenn</fo:inline>
+                <fo:inline>(2004)</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>19. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>T Schlomm, L Iwers, P Kirstein, B Jessen, J Kollermann, S Minner</fo:inline>
+                <fo:inline>(2008)</fo:inline>
+                <fo:inline>Clinical significance of p53 alterations in surgically treated prostate cancers</fo:inline>
+                <fo:inline>Mod Pathol</fo:inline>
+                <fo:inline>21:</fo:inline>
+                <fo:inline>1371-1378</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>20. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>J Kononen, L Bubendorf, A Kallioniemi, M Barlund, P Schraml, S Leighton</fo:inline>
+                <fo:inline>(1998)</fo:inline>
+                <fo:inline>Tissue microarrays for high-throughput molecular profiling of tumor specimens</fo:inline>
+                <fo:inline>Nat Med</fo:inline>
+                <fo:inline>4:</fo:inline>
+                <fo:inline>844-847</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>21. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>S Minner, M Enodien, H Sirma, AM Luebke, A Krohn, PS Mayer</fo:inline>
+                <fo:inline>(2011)</fo:inline>
+                <fo:inline>ERG status is unrelated to PSA recurrence in radically operated prostate cancer in the absence of antihormonal therapy</fo:inline>
+                <fo:inline>Clin Cancer Res</fo:inline>
+                <fo:inline>17:</fo:inline>
+                <fo:inline>5878-5888</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>22. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>L Burkhardt, S Fuchs, A Krohn, S Masser, M Mader, M Kluth</fo:inline>
+                <fo:inline>(2013)</fo:inline>
+                <fo:inline>CHD1 is a 5q21 tumor suppressor required for ERG rearrangement in prostate cancer</fo:inline>
+                <fo:inline>Cancer Res</fo:inline>
+                <fo:inline>73:</fo:inline>
+                <fo:inline>2795-2805</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>23. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>24. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>A Krohn, T Diedler, L Burkhardt, PS Mayer, C De Silva, M Meyer-Kornblum</fo:inline>
+                <fo:inline>(2012)</fo:inline>
+                <fo:inline>Genomic deletion of PTEN is associated with tumor progression and early PSA recurrence in ERG fusion-positive and fusion-negative prostate cancer</fo:inline>
+                <fo:inline>Am J Pathol</fo:inline>
+                <fo:inline>181:</fo:inline>
+                <fo:inline>401-412</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>25. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>A Krohn, A Seidel, L Burkhardt, F Bachmann, M Mader, K Grupp</fo:inline>
+                <fo:inline>(2013)</fo:inline>
+                <fo:inline>Recurrent deletion of 3p13 targets multiple tumour suppressor genes and defines a distinct subgroup of aggressive ERG fusion-positive prostate cancers</fo:inline>
+                <fo:inline>J Pathol</fo:inline>
+                <fo:inline>231:</fo:inline>
+                <fo:inline>130-141</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>26. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>MF Berger, MS Lawrence, F Demichelis, Y Drier, K Cibulskis, AY Sivachenko</fo:inline>
+                <fo:inline>(2011)</fo:inline>
+                <fo:inline>The genomic complexity of primary human prostate cancer</fo:inline>
+                <fo:inline>Nature</fo:inline>
+                <fo:inline>470:</fo:inline>
+                <fo:inline>214-220</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>27. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>BS Taylor, N Schultz, H Hieronymus, A Gopalan, Y Xiao, BS Carver</fo:inline>
+                <fo:inline>(2010)</fo:inline>
+                <fo:inline>Integrative genomic profiling of human prostate cancer</fo:inline>
+                <fo:inline>Cancer Cell</fo:inline>
+                <fo:inline>18:</fo:inline>
+                <fo:inline>11-22</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>28. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>J Lapointe, C Li, CP Giacomini, K Salari, S Huang, P Wang</fo:inline>
+                <fo:inline>(2007)</fo:inline>
+                <fo:inline>Genomic profiling reveals alternative genetic pathways of prostate tumorigenesis</fo:inline>
+                <fo:inline>Cancer Res</fo:inline>
+                <fo:inline>67:</fo:inline>
+                <fo:inline>8504-8510</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>29. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>JI Epstein, Z Feng, BJ Trock, PM Pierorazio</fo:inline>
+                <fo:inline>(2012)</fo:inline>
+                <fo:inline>Upgrading and downgrading of prostate cancer from biopsy to radical prostatectomy: incidence and predictive factors using the modified Gleason grading system and factoring in tertiary grades</fo:inline>
+                <fo:inline>Eur Urol</fo:inline>
+                <fo:inline>61:</fo:inline>
+                <fo:inline>1019-1024</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>30. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>SA Tomlins, DR Rhodes, S Perner, SM Dhanasekaran, R Mehra, XW Sun</fo:inline>
+                <fo:inline>(2005)</fo:inline>
+                <fo:inline>Recurrent fusion of TMPRSS2 and ETS transcription factor genes in prostate cancer</fo:inline>
+                <fo:inline>Science</fo:inline>
+                <fo:inline>310:</fo:inline>
+                <fo:inline>644-648</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>31. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>C Cai, H Wang, HH He, S Chen, L He, F Ma</fo:inline>
+                <fo:inline>(2013)</fo:inline>
+                <fo:inline>ERG induces androgen receptor-mediated regulation of SOX9 in prostate cancer</fo:inline>
+                <fo:inline>J Clin Invest</fo:inline>
+                <fo:inline>123:</fo:inline>
+                <fo:inline>1109-1122</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>32. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>Z Chen, LC Trotman, D Shaffer, K Lin H-, ZA Dotan, M Niki</fo:inline>
+                <fo:inline>(2005)</fo:inline>
+                <fo:inline>Crucial role of p53-dependent cellular senescence in suppression of Pten-deficient tumorigenesis</fo:inline>
+                <fo:inline>Nature</fo:inline>
+                <fo:inline>436:</fo:inline>
+                <fo:inline>725-730</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>33. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>S Gupta, K Iljin, H Sara, JP Mpindi, T Mirtti, P Vainio</fo:inline>
+                <fo:inline>(2010)</fo:inline>
+                <fo:inline>FZD4 as a mediator of ERG oncogene-induced WNT signaling and epithelial-to-mesenchymal transition in human prostate cancer cells</fo:inline>
+                <fo:inline>Cancer Res</fo:inline>
+                <fo:inline>70:</fo:inline>
+                <fo:inline>6735-6745</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>34. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>K Iljin, M Wolf, H Edgren, S Gupta, S Kilpinen, RI Skotheim</fo:inline>
+                <fo:inline>(2006)</fo:inline>
+                <fo:inline>TMPRSS2 fusions with oncogenic ETS factors in prostate cancer involve unbalanced genomic rearrangements and are associated with HDAC1 and epigenetic reprogramming</fo:inline>
+                <fo:inline>Cancer Res</fo:inline>
+                <fo:inline>66:</fo:inline>
+                <fo:inline>10242-10246</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>35. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>M Tsuda, S Takahashi, Y Takahashi, H Asahara</fo:inline>
+                <fo:inline>(2003)</fo:inline>
+                <fo:inline>Transcriptional co-activators CREB-binding protein and p300 regulate chondrocyte-specific gene expression via association with Sox9</fo:inline>
+                <fo:inline>J Biol Chem</fo:inline>
+                <fo:inline>278:</fo:inline>
+                <fo:inline>27224-27229</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>36. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>A Ring, YM Kim, M Kahn</fo:inline>
+                <fo:inline>(2014)</fo:inline>
+                <fo:inline>Wnt/catenin signaling in adult stem cell physiology and disease</fo:inline>
+                <fo:inline>Stem Cell Rev</fo:inline>
+                <fo:inline>10:</fo:inline>
+                <fo:inline>512-525</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>37. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>R Drivdahl, KH Haugk, CC Sprenger, PS Nelson, MK Tennant, SR Plymate</fo:inline>
+                <fo:inline>(2004)</fo:inline>
+                <fo:inline>Suppression of growth and tumorigenicity in the prostate tumor cell line M12 by overexpression of the transcription factor SOX9</fo:inline>
+                <fo:inline>Oncogene</fo:inline>
+                <fo:inline>23:</fo:inline>
+                <fo:inline>4584-4593</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block>
+                <fo:inline>38. </fo:inline>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>
+                <fo:inline>JC Brase, M Johannes, H Mannsperger, M Falth, J Metzger, LA Kacprzyk</fo:inline>
+                <fo:inline>(2011)</fo:inline>
+                <fo:inline>TMPRSS2-ERG-specific transcriptional modulation is associated with prostate cancer biomarkers and TGF-beta signaling</fo:inline>
+                <fo:inline>BMC Cancer</fo:inline>
+                <fo:inline>11:</fo:inline>
+              </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+        </fo:list-block>
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>
