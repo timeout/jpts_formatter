@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLOS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, CA USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0123221</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-14-26226</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Parentage of Overlapping Offspring of an Arboreal-Breeding Frog with No Nest Defense: Implications for Nest Site Selection and Reproductive Strategy</article-title>
+        <alt-title alt-title-type="running-head">Parentage Analyses of Overlapping Offspring in Frogs</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Tung</surname>
+            <given-names>Wan-Ping</given-names>
+          </name>
+          <xref rid="aff001" ref-type="aff">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Chen</surname>
+            <given-names>Yi-Huey</given-names>
+          </name>
+          <xref rid="aff002" ref-type="aff">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Cheng</surname>
+            <given-names>Wei-Chun</given-names>
+          </name>
+          <xref rid="aff001" ref-type="aff">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Chuang</surname>
+            <given-names>Ming-Feng</given-names>
+          </name>
+          <xref rid="aff001" ref-type="aff">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Hsu</surname>
+            <given-names>Wan-Tso</given-names>
+          </name>
+          <xref rid="aff001" ref-type="aff">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Kam</surname>
+            <given-names>Yeong-Choy</given-names>
+          </name>
+          <xref rid="aff001" ref-type="aff">
+            <sup>1</sup>
+          </xref>
+          <xref rid="cor001" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Lehtinen</surname>
+            <given-names>Richard M.</given-names>
+          </name>
+          <xref rid="aff003" ref-type="aff">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff001">
+        <label>1</label>
+        <addr-line>Department of Life Science, Tunghai University, Taichung 407, Taiwan</addr-line>
+      </aff>
+      <aff id="aff002">
+        <label>2</label>
+        <addr-line>Department of Life Science, Chinese Culture University, Taipei, Taiwan</addr-line>
+      </aff>
+      <aff id="aff003">
+        <label>3</label>
+        <addr-line>Department of Biology, The College of Wooster, Wooster, Ohio 44691, United States of America</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor" xlink:type="simple">
+          <name name-style="western">
+            <surname>Lötters</surname>
+            <given-names>Stefan</given-names>
+          </name>
+          <role>Academic Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>Trier University, GERMANY</addr-line>
+      </aff>
+      <author-notes>
+        <fn fn-type="conflict" id="coi001">
+          <p>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con" id="contrib001">
+          <p>Conceived and designed the experiments: YCK RML. Performed the experiments: WPT YHC WCC WTH. Analyzed the data: WPT YHC WCC YCK MFC. Contributed reagents/materials/analysis tools: WPT YHC WCC. Wrote the paper: WPT MFC YCK RML.</p>
+        </fn>
+        <corresp id="cor001">* E-mail: <email xlink:type="simple">biyckam@thu.edu.tw</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>2</day>
+        <month>4</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2015</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>4</issue>
+      <elocation-id>e0123221</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>17</day>
+          <month>6</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>1</day>
+          <month>3</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-year>2015</copyright-year>
+        <copyright-holder>Tung et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0123221" xlink:type="simple"/>
+      <abstract>
+        <p>Overlapping offspring occurs when eggs are laid in a nest containing offspring from earlier reproduction. Earlier studies showed that the parentage is not always obvious due to difficulties in field observation and/or alternative breeding tactics. To unveil the parentage between overlapping offspring and parents is critical in understanding oviposition site selection and the reproductive strategies of parents. Amplectant pairs of an arboreal-breeding frog, <italic>Kurixalus eiffingeri</italic>, lay eggs in tadpole-occupied nests where offspring of different life stages (embryos and tadpoles) coexist. We used five microsatellite DNA markers to assess the parentage between parents and overlapping offspring. We also tested the hypothesis that the male or female frog would breed in the same breeding site because of the scarcity of nest sites. Results showed varied parentage patterns, which may differ from the phenomenon of overlapping egg clutches reported earlier. Parentage analyses showed that only 58 and 25% of the tadpole-occupied stumps were reused by the same male and female respectively, partially confirming our prediction. Re-nesting by the same individual was more common in males than females, which is most likely related to the cost of tadpole feeding and/or feeding schemes of females. On the other hand, results of parentage analyses showed that about 42 and 75% of male and female respectively bred in tadpole-occupied stumps where tadpoles were genetically unrelated. Results of a nest-choice experiment revealed that 40% of frogs chose tadpole-occupied bamboo cups when we presented identical stumps, without or with tadpoles, suggesting that the habitat saturation hypothesis does not fully explain why frogs used the tadpole-occupied stumps. Several possible benefits of overlapping offspring with different life stages were proposed. Our study highlights the importance of integrating molecular data with field observations to better understand the reproductive biology and nest site selection of anuran amphibians.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This study was supported by a National Science Council grant to YCK (NSC 101-2621-B-029-002-MY3).</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="2"/>
+        <page-count count="14"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta id="data-availability" xlink:type="simple">
+          <meta-name>Data Availability</meta-name>
+          <meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec001" sec-type="intro">
+      <title>Introduction</title>
+      <p>Overlapping offspring is an interesting phenomenon that occurs more commonly than originally thought, but the patterns, causes, and ecological and evolutionary consequences are not fully understood. When sites are reused for reproduction, the sites may be empty (if previous offspring have left) or may contain offspring from earlier reproduction. If offspring from previous reproduction remain, this results in two overlapping cohorts. Overlapping offspring are commonly found in many oviparous animals such as insects [<xref rid="pone.0123221.ref001" ref-type="bibr">1</xref>, <xref rid="pone.0123221.ref002" ref-type="bibr">2</xref>], fishes [<xref rid="pone.0123221.ref003" ref-type="bibr">3</xref>, <xref rid="pone.0123221.ref004" ref-type="bibr">4</xref>], amphibians [<xref rid="pone.0123221.ref005" ref-type="bibr">5</xref>–<xref rid="pone.0123221.ref008" ref-type="bibr">8</xref>] and birds [<xref rid="pone.0123221.ref009" ref-type="bibr">9</xref>–<xref rid="pone.0123221.ref012" ref-type="bibr">12</xref>]. Often, it is assumed that the overlapping offspring are produced by the same parents; however, the parentage of offspring is not always obvious due to difficulties in field observation and/or alternative breeding tactics [<xref rid="pone.0123221.ref013" ref-type="bibr">13</xref>–<xref rid="pone.0123221.ref015" ref-type="bibr">15</xref>]. For example, when an intruding male fish takes over an egg-filled nest, it attends the eggs but also breeds with other females, resulting in overlapping offspring with multiple parentage [<xref rid="pone.0123221.ref013" ref-type="bibr">13</xref>, <xref rid="pone.0123221.ref016" ref-type="bibr">16</xref>]. Similarly, in a salamander (<italic>Hemidactylium scutatum</italic>), joint nesting, where several females lay eggs at a site, can also result in complex parentage [<xref rid="pone.0123221.ref017" ref-type="bibr">17</xref>–<xref rid="pone.0123221.ref019" ref-type="bibr">19</xref>].</p>
+      <p>The parentage between overlapping offspring and nest users could lead to differences in reproductive strategy and nest site selection. When an adult reuses a nest occupied by a conspecific, it may contain genetically related or unrelated offspring. The former could be a case of nest-site fidelity [<xref rid="pone.0123221.ref020" ref-type="bibr">20</xref>, <xref rid="pone.0123221.ref021" ref-type="bibr">21</xref>] whereas the latter could be a case of oviposition site selection [<xref rid="pone.0123221.ref022" ref-type="bibr">22</xref>–<xref rid="pone.0123221.ref025" ref-type="bibr">25</xref>]. Breeding site fidelity can be viewed as beneficial because the familiarity with an area could increase foraging efficiency, reduce predation risk [<xref rid="pone.0123221.ref026" ref-type="bibr">26</xref>, <xref rid="pone.0123221.ref027" ref-type="bibr">27</xref>], increase chances of pairing with a familiar partner [<xref rid="pone.0123221.ref028" ref-type="bibr">28</xref>], maintain social status [<xref rid="pone.0123221.ref029" ref-type="bibr">29</xref>], and reduce ectoparasitism [<xref rid="pone.0123221.ref030" ref-type="bibr">30</xref>], all of which facilitate nesting success and offspring survival [<xref rid="pone.0123221.ref021" ref-type="bibr">21</xref>, <xref rid="pone.0123221.ref031" ref-type="bibr">31</xref>]. In contrast, the reuse of occupied-nests with genetically unrelated young could be a case of the saturation of breeding sites that force breeding pairs to oviposit in an occupied site [<xref rid="pone.0123221.ref032" ref-type="bibr">32</xref>] or of conspecific attraction because the presence of conspecifics may represent the quality of breeding resources [<xref rid="pone.0123221.ref022" ref-type="bibr">22</xref>–<xref rid="pone.0123221.ref024" ref-type="bibr">24</xref>]. Furthermore, for species with parental care, reusing a nest has additional ecological consequences. An adult may raise two cohorts of its own offspring simultaneously when it reuses its own nest [<xref rid="pone.0123221.ref009" ref-type="bibr">9</xref>, <xref rid="pone.0123221.ref010" ref-type="bibr">10</xref>]. In contrast, when breeding in the nests of others, adults may raise genetically unrelated offspring (if it reproduces and stays) or be a brood-parasite (if it reproduces and leaves). Parental care is energetically expensive, and an investment in genetically unrelated young usually will decrease the ability of an animal to produce its own offspring, thereby reducing its fitness [<xref rid="pone.0123221.ref033" ref-type="bibr">33</xref>].</p>
+      <p>In this study, we used a Taiwanese frog (<italic>Kurixalus eiffingeri</italic> (Anura: Rhacophoridae)) that breeds in water-filled bamboo stumps as a model animal to study the parentage between overlapping offspring and its ecological consequence on reproductive strategy and nest site selection. Specifically, we used (1) five microsatellite DNA markers to analyze the parentage of adults and tadpoles and (2) paired bamboo cups with and without tadpoles to study the nest choice of frogs and to reveal the possible causes of nest reuse.</p>
+      <p>Amplectant pairs of <italic>K</italic>. <italic>eiffingeri</italic> lay fertilized eggs above the water line on the inner walls of bamboo stumps or tree holes [<xref rid="pone.0123221.ref034" ref-type="bibr">34</xref>]. It exhibits complex parental care which includes paternal care to eggs and subsequent maternal care to larvae. Male frogs attend nests during the embryonic stages (ca. 10–14 d), and they leave the stumps after embryos have hatched and do not defend the nest site afterwards [<xref rid="pone.0123221.ref035" ref-type="bibr">35</xref>]. Tadpoles live the water pool where they grow and develop until metamorphosis (larval period is about 45–60 d). Tadpoles are obligatorily oophagous and are fed by females that lay unfertilized, trophic eggs directly in the water, in the absence of male frogs [<xref rid="pone.0123221.ref036" ref-type="bibr">36</xref>]. Female frogs visit and feed tadpoles at intervals of about 8 d, and feeding occurs only at night [<xref rid="pone.0123221.ref037" ref-type="bibr">37</xref>]. Females leave the nest after feeding and do not have any other form of care (such as defending a nest site against predators). In the field, we have observed egg-attending males calling and obtaining a new batch of eggs, resulting in overlapping offspring in slightly different developmental stages. Calling to attract females during egg attendance is an alternative reproductive strategy to compensate for the loss of future mating opportunities [<xref rid="pone.0123221.ref038" ref-type="bibr">38</xref>]. In addition, we have also observed that frogs oviposited in tadpole-occupied bamboo stumps, resulting in a coexistence of offspring with different life stages (i.e., embryonic and larval stages) [<xref rid="pone.0123221.ref039" ref-type="bibr">39</xref>, <xref rid="pone.0123221.ref040" ref-type="bibr">40</xref>]. Upon hatching, newly-hatched tadpoles coexist with larger, older tadpoles from an early-laid egg clutch [<xref rid="pone.0123221.ref039" ref-type="bibr">39</xref>]. Given that the timing of deposition of two egg clutches is separated temporally, we predicted that these breeding patterns (oviposition in egg- or tadpole-occupied stumps) represents different reproductive strategies; consequently, the parentage between the adults and the two cohorts of offspring is expected to be different.</p>
+      <p>Water pools in bamboo stumps, like other phytotelmata, are ephemeral habitats that are structurally simple and prone to desiccation, but the quality and availability of these reproductive resources vary in time and space [<xref rid="pone.0123221.ref041" ref-type="bibr">41</xref>–<xref rid="pone.0123221.ref044" ref-type="bibr">44</xref>]. Earlier studies on <italic>K</italic>. <italic>eiffingeri</italic> demonstrated severe inter-clutch competition for food between successive cohorts of tadpoles. Larger, older tadpoles from the early-laid clutch outcompete smaller, younger tadpoles from the late-laid clutch and suppress their growth and development [<xref rid="pone.0123221.ref039" ref-type="bibr">39</xref>, <xref rid="pone.0123221.ref045" ref-type="bibr">45</xref>]. In <italic>K</italic>. <italic>eiffingeri</italic>, the oviposition decisions of frogs can be time- and context-dependent, and some breeding sites can be repeatedly used throughout breeding season, resulting in overlapping cohorts in a pool [<xref rid="pone.0123221.ref040" ref-type="bibr">40</xref>]. However, the parentage between adults and tadpoles is unknown, thus the reproductive strategies cannot be determined. Given that the availability of breeding resources is limited and inter-clutch competition of tadpoles is severe, we predicted that if a stump is reused, it is most likely used by the same male or female frog because breeding sites are hard to locate and the familiarity of a nest site facilitates the reproductive success of the parents.</p>
+    </sec>
+    <sec id="sec002" sec-type="materials|methods">
+      <title>Materials and Methods</title>
+      <sec id="sec003">
+        <title>Study site</title>
+        <p>We conducted experiments in the bamboo forests at Chitou in Nantou County, Taiwan. The average monthly temperature is 18 °C, and the total annual rainfall is about 3000 mm [<xref rid="pone.0123221.ref046" ref-type="bibr">46</xref>]. The rainy season is from February to September. Local farmers cut bamboo (<italic>Phyllostachys edulis</italic>) for commercial purposes, and the stumps collect rain water and become suitable breeding sites for <italic>K</italic>. <italic>eiffingeri</italic> [<xref rid="pone.0123221.ref046" ref-type="bibr">46</xref>].</p>
+      </sec>
+      <sec id="sec004">
+        <title>Field Procedure</title>
+        <sec id="sec005">
+          <title>Survey and sample collection of overlapping clutches</title>
+          <p>From March—August 2007–2009, we conducted field surveys to collect adults (males and/or females) and overlapping offspring (eggs and tadpoles) for parentage analyses. We first surveyed bamboo forests and located bamboo stumps containing tadpoles. We marked the stumps and monitored them if an egg clutch was found in the inner wall of stumps above the water line. We surveyed stumps every 3–7 d., dependent upon the breeding activity of frogs. Once an egg clutch was found in a tadpole-occupied stump, we collected all eggs and tadpoles about five days later and reared them in the laboratory in order to sample tissues for parentage analyses.</p>
+          <p>We captured and toe-clipped attending male frogs and preserved the tissue individually in 95% ethanol. Feeding females were more difficult to capture because they return to the nest during the night at an interval of about eight days [<xref rid="pone.0123221.ref037" ref-type="bibr">37</xref>]. Nevertheless, from June 27 to August 31, 2009, we set up funnel traps on the opening of stumps to trap feeding females [<xref rid="pone.0123221.ref037" ref-type="bibr">37</xref>]. If an egg clutch was deposited in a tadpole-occupied stump, we would remove eggs and tadpoles and transport them back to the laboratory about five days later. To continue the trapping procedure, we put ten tadpoles that had been collected from bamboo stumps at least 1–2 km away into the emptied stump. Female <italic>K</italic>. <italic>eiffingeri</italic> do not discriminate kin from non-kin[<xref rid="pone.0123221.ref037" ref-type="bibr">37</xref>], and we could capture them while they were feeding the substitute tadpoles. Upon capture, we toe-clipped female frogs and preserved the tissue individually in 95% ethanol.</p>
+          <p>In the laboratory, we incubated egg clutches separately on moist substrates until hatching. We reared tadpoles in beakers (ca. 1 L water) and fed them with chicken egg yolk once every 4 days until they reached metamorphosis. Chicken egg yolk is a good substitute for <italic>K</italic>. <italic>eiffingeri</italic> eggs [<xref rid="pone.0123221.ref047" ref-type="bibr">47</xref>]. When tadpoles reached Gosner stage 40, we clipped a distal portion of tadpoles’ tail (i.e., 10% or less of total tail length) and preserved tissues in 95% ethanol for parentage analyses.</p>
+        </sec>
+        <sec id="sec006">
+          <title>Nest choice experiment</title>
+          <p>From April 17 to August 15, 2013, we conducted a manipulated experiment where paired bamboo cups, with and without tadpoles, were set up to investigate nest choice of frogs. First, we collected bamboo trunks which were cut by local farmers to thin the forest and sawed a section of trunk (i.e., an internode) which contains a septum at each end. We then sawed the middle of the internode which resulted in two identical bamboo cups and tied them to a bamboo stump (<xref rid="pone.0123221.g001" ref-type="fig">Fig 1</xref>). Bamboo stumps were covered by plastic sheet to prevent frogs from depositing eggs. We randomly designated one cup as the control and the other as the experimental group. A control group contained water only but the experimental group contained water and 5 tadpoles (Gosner stage 28–35). We filled the paired-bamboo cups with 7 cm of water [<xref rid="pone.0123221.ref046" ref-type="bibr">46</xref>]. We drilled small holes in the bamboo wall to prevent a rise of the water level from rainfall and, where necessary, added water to prevent the drop of water level by evaporation [<xref rid="pone.0123221.ref025" ref-type="bibr">25</xref>]. Tadpoles were collected from bamboo stumps at least 1–2 km away. We set up 50–80 paired-bamboo cups each week during the study period, dependent upon the breeding activity of frogs and availability of tadpoles.</p>
+          <fig id="pone.0123221.g001" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0123221.g001</object-id>
+            <label>Fig 1</label>
+            <caption>
+              <title>A set-up for a manipulated experiment on nest choice.</title>
+              <p>Paired bamboo cups were attached to a stump which was covered by a plastic sheet.</p>
+            </caption>
+            <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0123221.g001" position="float" xlink:type="simple"/>
+          </fig>
+          <p>We surveyed the paired-bamboo cups every 4 days. Once fertilized eggs were found on the inner wall of a bamboo cup above the water line, we recorded which cup was used and the clutch size. Subsequently, these paired-bamboo cups were no longer used for the rest of our experiment, and we usually set up new paired-bamboo cups in nearby bamboo forests. In each survey, we removed the tadpoles from the bamboo cups, fed them with raw chicken egg yolk in a water bowl, and returned them to bamboo cups after feeding [<xref rid="pone.0123221.ref047" ref-type="bibr">47</xref>]. If tadpoles reached metamorphic stages, Gosner stage 40 or older, we replaced them with younger tadpoles.</p>
+        </sec>
+      </sec>
+      <sec id="sec007">
+        <title>Genetic analyses on the parentage of tadpoles and adults</title>
+        <p>Detailed methods on parentage analyses were reported by Chen et al [<xref rid="pone.0123221.ref048" ref-type="bibr">48</xref>]. Briefly, we used five polymorphic microsatellite loci (CEd12365, CEd15688, CEd19063, CEd13854, and CEd19091) to conduct parentage analyses [<xref rid="pone.0123221.ref048" ref-type="bibr">48</xref>]. At first, DNA was extracted from tissues, amplified, and genotyped using standard methods [<xref rid="pone.0123221.ref048" ref-type="bibr">48</xref>]. Program Cervus 3.0 [<xref rid="pone.0123221.ref049" ref-type="bibr">49</xref>, <xref rid="pone.0123221.ref050" ref-type="bibr">50</xref>] was used to calculate the number of alleles, allele frequencies, null allele frequencies and exclusion probabilities for each locus, and the combined exclusion probability. The combined exclusion probability across all loci was 0.987 when the genotype of a parent is known [<xref rid="pone.0123221.ref048" ref-type="bibr">48</xref>]. The likelihood-based, COLONY 2 program [<xref rid="pone.0123221.ref051" ref-type="bibr">51</xref>] was used to analyze genetic relationships between the attending males, feeding females and the offspring in the nests.</p>
+        <p>Based on the results of the parentage analyses, we deduced the mating pattern of frogs (<xref rid="pone.0123221.s001" ref-type="supplementary-material">S1 Table</xref>). We defined (1) a synchronous polyandrous female as one which mates with multiple males at the same time [<xref rid="pone.0123221.ref015" ref-type="bibr">15</xref>]; (2) a sequentially polygynous male as one which mates with several different females at different periods of time [<xref rid="pone.0123221.ref038" ref-type="bibr">38</xref>]; (3) a sequential multi-mating event as a series of matings that occur within a short time, such as in a night or within a week. Each mating could be monogamous, polyandrous, or polygynous.</p>
+        <p>Also, based on the results of parentage analyses, we further assessed whether individuals that breed earlier in a stump would reuse the same stump again. For example, if the early-laid clutch is a result of mating by a male (A) and female (X) and the late-laid clutch by two males (A and B) and a female (Y), then we conclude that the tadpole-occupied stump was reused by the same male (i.e., A) but different females (i.e., X and Y). In contrast, if the early-laid clutch is a result of mating by two males (C and D) and a female (Z) and the late-laid clutch by a male (E) and female (Z), then we conclude that the tadpole-occupied stumps were reused by the different males (i.e., C, D, and E) but same female (i.e., Z).</p>
+      </sec>
+      <sec id="sec008">
+        <title>Statistical analyses</title>
+        <p>All statistical analyses of the data were performed with SAS [<xref rid="pone.0123221.ref052" ref-type="bibr">52</xref>]. We used a G test to assess the occurrence of stump use by frogs and proportion of nest reuse among sexes [<xref rid="pone.0123221.ref053" ref-type="bibr">53</xref>]. We used the Wilcoxon rank sum test to compare the clutch size of eggs laid in empty and tadpole-occupied stumps. Unless stated otherwise, we report the mean ± SD of each variable.</p>
+      </sec>
+      <sec id="sec009">
+        <title>Ethic statement</title>
+        <p><italic>Kurixalus eiffingeri</italic> is not an endangered or protected species and thus no specific permission is needed for field studies. Some bamboo forests in Chitou are privately owned, and we had verbal permission from land owners (Mr. Pan Yeong-Sung and Ms Chen Mei-Chi) to conduct observational and field studies (23<sup>o</sup>41’05.4” N 130<sup>o</sup>47’45.4” E and 23<sup>o</sup>41’22.8” N 130<sup>o</sup>47’22.5” E, respectively).</p>
+        <p>Institutional Animal Care and Use Committee (IACUC) of Tunghai University has specifically approved this study (Approval No. 100–19). We captured and toe-clipped attending males and feeding females and preserved the tissue individually in 95% ethanol for parentage analyses. Because only the most distal segment of the second toe was clipped, the toe-clipping is likely to have a minimal effect on the individual [<xref rid="pone.0123221.ref048" ref-type="bibr">48</xref>, <xref rid="pone.0123221.ref054" ref-type="bibr">54</xref>]. When tadpoles reached Gosner stage 40, we clipped a distal portion of tadpoles’ tail (i.e., 10% or less of total tail length) [<xref rid="pone.0123221.ref048" ref-type="bibr">48</xref>]. Due to the fast healing of wounds (1–2 days) and sedentary nature of tadpoles, the tail-clipping is likely to have little effect on activity and feeding of tadpoles [<xref rid="pone.0123221.ref038" ref-type="bibr">38</xref>, <xref rid="pone.0123221.ref048" ref-type="bibr">48</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="sec010" sec-type="results">
+      <title>Results</title>
+      <sec id="sec011">
+        <title>Field observation and sample collection for parentage analyses</title>
+        <p>We located 64 bamboo stumps in total that contained eggs and tadpoles simultaneously (18, 19, and 27 stumps in 2007–2009, respectively). The average number of eggs (i.e., late-laid clutch) and tadpoles (i.e., early-laid clutch) found in the stumps was 44.3 ± 24.6 (range: 10–155) and 10.5 ± 7.7 (range: 2–37 tadpoles), respectively (<xref rid="pone.0123221.g002" ref-type="fig">Fig 2</xref>).</p>
+        <fig id="pone.0123221.g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0123221.g002</object-id>
+          <label>Fig 2</label>
+          <caption>
+            <title>The number of tadpoles found in water pools of bamboo stumps.</title>
+            <p>The number of tadpoles was counted when an egg clutch was deposited above the water line on the inner wall of the stump.</p>
+          </caption>
+          <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0123221.g002" position="float" xlink:type="simple"/>
+        </fig>
+        <p>We selected 24 out of 64 stumps to conduct parentage analyses. The selected stumps consisted of at least one sampled adult (attending male and/or feeding females) and 6 tadpoles each from early- and late-laid clutches (12 tadpoles total). We analyzed a total of 301 and 451 samples from early- and late-laid clutches, respectively.</p>
+      </sec>
+      <sec id="sec012">
+        <title>Parentage analyses</title>
+        <p>COLONY deduced eight different types of parentage among overlapping offspring (<xref rid="pone.0123221.t001" ref-type="table">Table 1</xref>). The most common parentage among overlapping offspring was partially the same father and different mothers (<italic>N</italic> = 8), followed by different parents (<italic>N</italic> = 7). The former is a case when a male frog was involved in matings that sired offspring in the early- and late-laid clutches, and at least one of the clutches was either synchronous polyandry or sequential multi-mating events that included other male frogs, which resulted in multiple paternity. In contrast, the latter is a rather simple case where two different pairs of frogs produced the two cohorts of offspring. The remaining types of parentage among overlapping offspring occurred at much lower frequency (<xref rid="pone.0123221.t001" ref-type="table">Table 1</xref> and <xref rid="pone.0123221.s001" ref-type="supplementary-material">S1 Table</xref>).</p>
+        <table-wrap id="pone.0123221.t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0123221.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Parentage analyses of overlapping offspring of three consecutive years using COLONY.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone.0123221.t001g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0123221.t001" xlink:type="simple"/>
+            <table>
+              <colgroup span="1">
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="left" rowspan="1" colspan="1">Parentage</th>
+                  <th align="left" rowspan="1" colspan="1">2007</th>
+                  <th align="left" rowspan="1" colspan="1">2008</th>
+                  <th align="left" rowspan="1" colspan="1">2009</th>
+                  <th align="left" rowspan="1" colspan="1">Subtotal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Same tale an</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Same ♂ame tale ly same ♀</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Same ♂ameetale an ♀</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Partial same ♂arti ♀</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Partial same ♂ardifferent ♀</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">4</td>
+                  <td align="left" rowspan="1" colspan="1">8</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Different ♂iffere ♀</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Different ♂ifferententaly ♀</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Different ♂iffe ♀</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                  <td align="left" rowspan="1" colspan="1">7</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">4</td>
+                  <td align="left" rowspan="1" colspan="1">6</td>
+                  <td align="left" rowspan="1" colspan="1">14</td>
+                  <td align="left" rowspan="1" colspan="1">24</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="t001fn001">
+              <p>Partial same ♂: a male is the genetic father of the two cohorts of offspring while at least one of them is not completely sired by him.</p>
+            </fn>
+            <fn id="t001fn002">
+              <p>Partial same ♀: a female is the genetic mother of the two cohorts of offspring while at least one of them is not completely produced by her. In other words, at least one of the cohorts may contain offspring from several egg clutches with similar developmental stages which were mistakenly identified as one egg clutch when collected.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>Based on results of parentage among overlapping clutches, we found that a total of 14 stumps were reused by the same male frogs but 10 stumps were not, and the proportion of stump use is statistically similar (G test, G = 0.670, <italic>P</italic> = 0.413). On the other hand, a total of 6 stumps were reused by the same female frogs but 18 stumps were not, and the proportion of stump use was statistically different (G test, G = 6.279, <italic>P</italic> = 0.012).</p>
+      </sec>
+      <sec id="sec013">
+        <title>Nest choice experiment</title>
+        <p>We conducted 28 surveys, checking a total of 1862 cup pairs from April to August and found that 57 egg clutches were deposited during the study period (<xref rid="pone.0123221.t002" ref-type="table">Table 2</xref>). Most egg clutches were found between May to July when the breeding activity peaked. A total of 34 and 23 egg clutches were laid in control and experimental bamboo cups, respectively, and the egg placement was independent from cup treatment (G test, G = 2.136, <italic>P</italic> = 0.144). During this three month period (May to July), 40, 31, and 52% of egg clutches were laid in the experimental cups in the respective months. Clutch size of eggs laid in control cups (45.3 <underline>+</underline> 18.4 eggs, <italic>N</italic> = 24) was not different from that of experimental cups (42.8 <underline>+</underline> 19.4 eggs. <italic>N</italic> = 17; Wilcoxon rank sum test, W = 229.5, <italic>P</italic> = 0.508).</p>
+        <table-wrap id="pone.0123221.t002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0123221.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Survey effort and frequency of egg clutches laid in empty or tadpole-occupied cups.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone.0123221.t002g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0123221.t002" xlink:type="simple"/>
+            <table>
+              <colgroup span="1">
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="left" rowspan="1" colspan="1"/>
+                  <th align="left" rowspan="1" colspan="1">Number of surveys per month</th>
+                  <th align="left" rowspan="1" colspan="1">Number of cup checked per survey</th>
+                  <th align="left" rowspan="1" colspan="1">Total number of cups checked per month</th>
+                  <th align="left" rowspan="1" colspan="1">Frequency of egg clutches laid in empty cups</th>
+                  <th align="left" rowspan="1" colspan="1">Frequency of egg clutches laid in tadpole-occupied cups</th>
+                  <th align="left" rowspan="1" colspan="1">Subtotal egg clutches laid</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">April</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">34–56</td>
+                  <td align="left" rowspan="1" colspan="1">90</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">May</td>
+                  <td align="left" rowspan="1" colspan="1">6</td>
+                  <td align="left" rowspan="1" colspan="1">47–77</td>
+                  <td align="left" rowspan="1" colspan="1">364</td>
+                  <td align="left" rowspan="1" colspan="1">6</td>
+                  <td align="left" rowspan="1" colspan="1">4</td>
+                  <td align="left" rowspan="1" colspan="1">10</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">June</td>
+                  <td align="left" rowspan="1" colspan="1">7</td>
+                  <td align="left" rowspan="1" colspan="1">71–78</td>
+                  <td align="left" rowspan="1" colspan="1">526</td>
+                  <td align="left" rowspan="1" colspan="1">15</td>
+                  <td align="left" rowspan="1" colspan="1">7</td>
+                  <td align="left" rowspan="1" colspan="1">22</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">July</td>
+                  <td align="left" rowspan="1" colspan="1">9</td>
+                  <td align="left" rowspan="1" colspan="1">62–77</td>
+                  <td align="left" rowspan="1" colspan="1">608</td>
+                  <td align="left" rowspan="1" colspan="1">11</td>
+                  <td align="left" rowspan="1" colspan="1">12</td>
+                  <td align="left" rowspan="1" colspan="1">23</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">August</td>
+                  <td align="left" rowspan="1" colspan="1">4</td>
+                  <td align="left" rowspan="1" colspan="1">65–70</td>
+                  <td align="left" rowspan="1" colspan="1">274</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">1862</td>
+                  <td align="left" rowspan="1" colspan="1">34</td>
+                  <td align="left" rowspan="1" colspan="1">23</td>
+                  <td align="left" rowspan="1" colspan="1">57</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec id="sec014" sec-type="conclusions">
+      <title>Discussion</title>
+      <sec id="sec015">
+        <title>Multiple parentage of overlapping offspring</title>
+        <p>Overlapping offspring is a reproductive situation with ecological and evolutionary implications. Attending male fishes [<xref rid="pone.0123221.ref055" ref-type="bibr">55</xref>, <xref rid="pone.0123221.ref056" ref-type="bibr">56</xref>] and frogs including <italic>K</italic>. <italic>eiffingeri</italic> [<xref rid="pone.0123221.ref005" ref-type="bibr">5</xref>, <xref rid="pone.0123221.ref006" ref-type="bibr">6</xref>, <xref rid="pone.0123221.ref008" ref-type="bibr">8</xref>, <xref rid="pone.0123221.ref038" ref-type="bibr">38</xref>, <xref rid="pone.0123221.ref057" ref-type="bibr">57</xref>] obtain additional egg clutches in a nest, resulting in overlapping egg clutches. The occurrence of overlapping egg clutches in a nest has been proposed as a reproductive strategy used by attending males to compensate for loss of mating opportunities while attending eggs [<xref rid="pone.0123221.ref005" ref-type="bibr">5</xref>, <xref rid="pone.0123221.ref008" ref-type="bibr">8</xref>, <xref rid="pone.0123221.ref058" ref-type="bibr">58</xref>–<xref rid="pone.0123221.ref060" ref-type="bibr">60</xref>]. In <italic>K</italic>. <italic>eiffingeri</italic>, Cheng et al. [<xref rid="pone.0123221.ref038" ref-type="bibr">38</xref>] used microsatellite DNA markers to analyze parentage and showed that most overlapping egg clutches in a stump were a result of sequential breeding (or polygyny) of the attending male, providing direct evidence to support earlier predictions that attending anuran males can sire and care for multiple egg clutches in a single egg deposition site.</p>
+        <p>In this study, <italic>K</italic>. <italic>eiffingeri</italic> oviposited in tadpole-occupied stumps, resulting in overlapping offspring with different life stages; molecular and field evidence strongly suggest that the overlapping offspring in this study is not a continuum of overlapping egg clutches reported earlier [<xref rid="pone.0123221.ref038" ref-type="bibr">38</xref>] and represents a different breeding phenomenon. Two lines of evidence support our contention: first, only 50% of overlapping offspring in this study were sired (completely or partially) by the same male frog compared to 93% of overlapping egg clutches in Cheng et al. [<xref rid="pone.0123221.ref038" ref-type="bibr">38</xref>]; second, the earlier field evidence indicates that the prevalence of overlapping offspring with different life stages was about 36% [<xref rid="pone.0123221.ref040" ref-type="bibr">40</xref>] compared to only 5% of overlapping egg clutches in Cheng et al. [<xref rid="pone.0123221.ref038" ref-type="bibr">38</xref>]. In fact, overlapping offspring of different life stages in this study is more similar to the breeding strategy employed by pigeons [<xref rid="pone.0123221.ref009" ref-type="bibr">9</xref>, <xref rid="pone.0123221.ref010" ref-type="bibr">10</xref>, <xref rid="pone.0123221.ref012" ref-type="bibr">12</xref>] and fishes [<xref rid="pone.0123221.ref003" ref-type="bibr">3</xref>].</p>
+        <p>The casual mechanism(s) of the varied patterns of parentage in overlapping offspring in this study are yet to be clarified and are expected to be more complicated than that of overlapping egg clutches reported earlier. We speculate that the varied parentage patterns can at least be associated with two ecological factors: a lack of nest defense and limited breeding resources. <italic>Kurixalus eiffingeri</italic> has a unique “sequential” form of parental care: male frogs guard eggs during embryonic period, and female frogs feed tadpoles alone during larval period; however, there is no evidence of nest or mate defense. Nest defense is a common parental behavior among insects [<xref rid="pone.0123221.ref061" ref-type="bibr">61</xref>], fishes [<xref rid="pone.0123221.ref062" ref-type="bibr">62</xref>], salamanders [<xref rid="pone.0123221.ref063" ref-type="bibr">63</xref>–<xref rid="pone.0123221.ref065" ref-type="bibr">65</xref>], frogs [<xref rid="pone.0123221.ref066" ref-type="bibr">66</xref>, <xref rid="pone.0123221.ref067" ref-type="bibr">67</xref>], and birds [<xref rid="pone.0123221.ref068" ref-type="bibr">68</xref>–<xref rid="pone.0123221.ref070" ref-type="bibr">70</xref>] and functions to protect valuable resources inside (e.g., mates, offspring, food, even the nest site itself [<xref rid="pone.0123221.ref061" ref-type="bibr">61</xref>]). In birds, the increased frequency of extra-pair mating or paternity has been associated with a lack of territorial or mate-guarding behavior [<xref rid="pone.0123221.ref071" ref-type="bibr">71</xref>–<xref rid="pone.0123221.ref074" ref-type="bibr">74</xref>]. This may also be true in <italic>K</italic>. <italic>eiffingeri</italic> in that a lack of mate and nest defense opens possibilities for a male or female frog to mate with others and utilize the tadpole-occupied nests to breed again. Furthermore, the quality and availability of water pools in stumps vary in time and space [<xref rid="pone.0123221.ref040" ref-type="bibr">40</xref>]. As the reproductive season progresses, more and more of the arboreal pools may already have been used for breeding by other individuals [<xref rid="pone.0123221.ref040" ref-type="bibr">40</xref>]. The competition for stumps (empty or tadpole-occupied) for breeding is heavy, which inevitably results in the reuse of tadpole-occupied stumps. This likely leads to a diverse pattern of parentage in the overlapping offspring.</p>
+        <p>The lack of nest defense during the larval period by both parents comes as a surprise in light of the importance of the nest site and brood inside. Hom et al. [<xref rid="pone.0123221.ref075" ref-type="bibr">75</xref>] proposed a dynamic optimization model to predict the fitness consequences of nest defense, and one of the predictions is that nest defense would be minimal or lacking for species with small body size. <italic>Kurixalus eiffingeri</italic> is a small-size frog (snout-vent length 2–3 cm) which is probably ineffective in protecting tadpoles from snake predation, the primary cause of tadpole mortality [<xref rid="pone.0123221.ref076" ref-type="bibr">76</xref>]. In addition, the lack of nest defense by males during the larval period is probably because the benefit of seeking other stumps to breed in right away outweighs the costs of breeding in the same nest [<xref rid="pone.0123221.ref040" ref-type="bibr">40</xref>]. In females, a lack of nest defense may also relate to the feeding scheme. Each <italic>K</italic>. <italic>eiffingeri</italic> tadpole consumes nearly 80 eggs to support its growth and development until metamorphosis [<xref rid="pone.0123221.ref046" ref-type="bibr">46</xref>], thus, egg provisioning to tadpoles is a time consuming process. As a result, female frogs are forced to spend a large amount of time away from the nest foraging and producing trophic eggs to meet the energetic demands of their tadpoles.</p>
+      </sec>
+      <sec id="sec016">
+        <title>Oviposition strategies when reusing a nest</title>
+        <p>Our findings that 58 and 25% of <italic>K</italic>. <italic>eiffingeri</italic> males and females respectively reused the same stump to breed partly agreed with our prediction. Earlier studies have reported site fidelity in stream-dwelling frogs which probably are able to obtain sufficient ecological necessities such that moving away from a site is not required [<xref rid="pone.0123221.ref077" ref-type="bibr">77</xref>–<xref rid="pone.0123221.ref079" ref-type="bibr">79</xref>]. Results from studies in birds have demonstrated that nest site fidelity facilitates nesting success and offspring survival [<xref rid="pone.0123221.ref021" ref-type="bibr">21</xref>, <xref rid="pone.0123221.ref031" ref-type="bibr">31</xref>, <xref rid="pone.0123221.ref080" ref-type="bibr">80</xref>]. Accordingly, these beneficial effects should apply to <italic>K</italic>. <italic>eiffingeri</italic> that reuses a previously-used stump. However, females reused nests at a much lower rate, suggesting a sexual difference in nest reuse. Earlier studies showed that the degree of nest-site fidelity can be influenced by previous experience [<xref rid="pone.0123221.ref081" ref-type="bibr">81</xref>], nest competition [<xref rid="pone.0123221.ref082" ref-type="bibr">82</xref>], age [<xref rid="pone.0123221.ref031" ref-type="bibr">31</xref>, <xref rid="pone.0123221.ref080" ref-type="bibr">80</xref>, <xref rid="pone.0123221.ref083" ref-type="bibr">83</xref>], site quality [<xref rid="pone.0123221.ref024" ref-type="bibr">24</xref>], and predation [<xref rid="pone.0123221.ref026" ref-type="bibr">26</xref>]. In this study, the lower rate of reusing the same nest by females can probably be explained by the high cost of tadpole feeding. Tadpoles are obligatorily oophagous, and each tadpole consumes about 80 trophic eggs during larval period (45–60 d) [<xref rid="pone.0123221.ref046" ref-type="bibr">46</xref>]. The feeding cost for a female to raise about 20 tadpoles (i.e., average tadpole number per stump) is extremely high [<xref rid="pone.0123221.ref084" ref-type="bibr">84</xref>] preventing her from breeding again while caring for the tadpoles. However, when tadpoles begin to metamorphose and leave the stumps, female frogs may breed again when tadpoles are few [<xref rid="pone.0123221.ref040" ref-type="bibr">40</xref>], and the feeding cost is presumably lower.</p>
+        <p>On the other hand, results of parentage analyses showed that about 42 and 75% of males and females respectively bred in tadpole-occupied stumps where tadpoles were genetically unrelated, which leads to the following question: why did frogs breed in the tadpole-occupied stumps of others? Lin, Lehtinen and Kam [<xref rid="pone.0123221.ref040" ref-type="bibr">40</xref>] reported that reuse of nests by <italic>K</italic>. <italic>eiffingeri</italic> occurred more commonly in the second half of breeding season. One explanation is that amplectant pairs may be forced to lay eggs in tadpole-occupied nests when most suitable breeding habitats are already used later in the breeding season (i.e., the saturated habitat hypothesis) [<xref rid="pone.0123221.ref032" ref-type="bibr">32</xref>]. These tadpole-occupied stumps are less favorable nests because larger tadpoles from early clutches outcompete smaller tadpoles from late clutches for trophic eggs that may result in tadpole starvation, retarded growth, and mortality of the latter [<xref rid="pone.0123221.ref039" ref-type="bibr">39</xref>, <xref rid="pone.0123221.ref045" ref-type="bibr">45</xref>]. In theory, amplectant pairs would avoid tadpole-occupied stumps to minimize the detrimental impact of residing tadpoles to their offspring. However, in the nest choice experiment, when we presented identical stumps, without or with tadpoles, 40% of frogs still chose tadpole-occupied stumps, suggesting that the habitat saturation hypothesis does not fully explain why frogs used the tadpole-occupied stumps. One explanation is that females are unable to detect the tadpoles in the stumps, and the chance of stump use is random. This possibility, however, is unlikely because adults are selective in oviposition sites [<xref rid="pone.0123221.ref046" ref-type="bibr">46</xref>, <xref rid="pone.0123221.ref085" ref-type="bibr">85</xref>], and females purposely deposited egg clutches in stumps with fewer tadpoles [<xref rid="pone.0123221.ref040" ref-type="bibr">40</xref>]. The alternative explanation for the re-use of stumps is that even though the quality of tadpole-occupied stumps is discounted due to inter-clutch tadpole competition, they are still as good as, if not better than, the remaining unoccupied stumps [<xref rid="pone.0123221.ref040" ref-type="bibr">40</xref>].</p>
+        <p>What are the possible benefits of reusing tadpole-occupied stumps? First, the presence of early-clutch tadpoles may serve as a cue for the high quality of the stumps, such as the availability and persistence of the water resource, which is particularly critical for offspring living in container habitats like tree holes and stumps which are prone to desiccation [<xref rid="pone.0123221.ref024" ref-type="bibr">24</xref>, <xref rid="pone.0123221.ref041" ref-type="bibr">41</xref>, <xref rid="pone.0123221.ref043" ref-type="bibr">43</xref>]. Similar findings of conspecific attraction have been reported in vertebrates and invertebrates [<xref rid="pone.0123221.ref022" ref-type="bibr">22</xref>–<xref rid="pone.0123221.ref024" ref-type="bibr">24</xref>, <xref rid="pone.0123221.ref053" ref-type="bibr">53</xref>]. When two cohorts of offspring with different developmental stages coexist, the negative effect of early-clutch tadpoles on late-clutch tadpoles is unavoidable[<xref rid="pone.0123221.ref045" ref-type="bibr">45</xref>]. However, <italic>K</italic>. <italic>eiffingeri</italic> reuse stumps when residing tadpoles are usually at the middle or late developmental stages and low in number [<xref rid="pone.0123221.ref039" ref-type="bibr">39</xref>, <xref rid="pone.0123221.ref040" ref-type="bibr">40</xref>], the negative effects of early-clutch tadpoles would be somewhat alleviated because they would soon metamorphose, minimizing inter-clutch competition [<xref rid="pone.0123221.ref045" ref-type="bibr">45</xref>]. Second, the coexistence of two cohorts of tadpoles reduces the probability of smaller tadpoles (i.e., late-laid clutches) being eaten not only because of the attack abatement effect but also because they are less conspicuous due to small size when compared to larger tadpoles (i.e., early-laid clutch) [<xref rid="pone.0123221.ref032" ref-type="bibr">32</xref>]. Third, coexisting tadpoles in stumps could potentially be fed by two females which reduces the probability of catastrophic nest mortality. Earlier studies on <italic>K</italic>. <italic>eiffingeri</italic> have reported nest failure (ca.30%) which is due to nest abandonment by females and/or death of female frogs, mostly by snake predation [<xref rid="pone.0123221.ref045" ref-type="bibr">45</xref>, <xref rid="pone.0123221.ref084" ref-type="bibr">84</xref>, <xref rid="pone.0123221.ref086" ref-type="bibr">86</xref>]. Since females cannot discriminate kin from non-kin [<xref rid="pone.0123221.ref037" ref-type="bibr">37</xref>], if a nest is used by two females (i.e., multiple feeders effect), the tadpoles would still be fed if one of the mothers deserts the nest or is eaten. A similar scenario was reported by Harris et al. [<xref rid="pone.0123221.ref087" ref-type="bibr">87</xref>] in that joint nests by <italic>H</italic>. <italic>scutatum</italic> were deserted less often compared to solitary nests, and the probability of catastrophic mortality was accordingly reduced.</p>
+      </sec>
+    </sec>
+    <sec id="sec017" sec-type="conclusions">
+      <title>Conclusions</title>
+      <p>In conclusion, integrating parentage into the discussion of nest site selection can lead to new insights into the reproductive strategies and sexual selection of animals. This is particularly true in the studies of reproductive behavior of externally fertilizing animals such as anuran amphibians and fishes because many species have complex reproductive behavior that cannot easily be detected in the field [<xref rid="pone.0123221.ref013" ref-type="bibr">13</xref>, <xref rid="pone.0123221.ref016" ref-type="bibr">16</xref>, <xref rid="pone.0123221.ref038" ref-type="bibr">38</xref>, <xref rid="pone.0123221.ref088" ref-type="bibr">88</xref>, <xref rid="pone.0123221.ref089" ref-type="bibr">89</xref>]. In this study, <italic>K</italic>. <italic>eiffingeri</italic> may oviposit in egg- or tadpole-occupied stumps, both resulting in overlapping offspring. However, parentage data and field evidence suggest that oviposition in stumps occupied by either eggs or tadpoles should be seen as two different reproductive phenomena, most likely with different causal mechanisms. Oviposition in egg-occupied stumps is mostly initiated by attending males which probably attempt to compensate for the loss of reproductive opportunities while attending eggs. On the other hand, based on the results of the nest choice experiment in the field, the occurrence of oviposition in tadpole-occupied stumps cannot be fully explained by the habitat saturation hypothesis. We propose several hypotheses to explain the potential adaptive values of overlapping offspring. However, additional studies are necessary to fully understand the patterns revealed by this study.</p>
+    </sec>
+    <sec id="sec018">
+      <title>Supporting Information</title>
+      <supplementary-material id="pone.0123221.s001" xlink:href="info:doi/10.1371/journal.pone.0123221.s001" mimetype="application/pdf" position="float" xlink:type="simple">
+        <label>S1 Table</label>
+        <caption>
+          <title>Summaries of stump use, clutch size development stage, sample size used, and parentage of overlapping offspring deduced from the COLONY program.</title>
+          <p>(PDF)</p>
+        </caption>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>This study was supported by a National Science Council grant to YCK (NSC 101-2621-B-029-002-MY3). We thank the staff of the Experimental Forest of the National Taiwan University at Chitou for providing accommodations. We also thank I-S Lin and Y-C Huang for field assistance.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0123221.ref001">
+        <label>1</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Manica</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Johnstone</surname><given-names>RA</given-names></name>. <article-title>The evolution of paternal care with overlapping broods</article-title>. <source>Am Nat</source>. <year>2004</year>;<volume>164</volume>: <fpage>517</fpage>–<lpage>530</lpage>. <object-id pub-id-type="pmid">15459882</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref002">
+        <label>2</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Edgerly</surname><given-names>JS</given-names></name>, <name name-style="western"><surname>McFarland</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Morgan</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Livdahl</surname><given-names>T</given-names></name>. <article-title>A seasonal shift in egg-laying behaviour in response to cues of future competition in a treehole mosquito</article-title>. <source>J Anim Ecol</source>. <year>1998</year>;<volume>67</volume>: <fpage>805</fpage>–<lpage>818</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref003">
+        <label>3</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Travis</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Farr</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Henrich</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Cheong</surname><given-names>RT</given-names></name>. <article-title>Testing theories of clutch overlap with the reproductive ecology of <italic>Heterandria Formosa</italic></article-title>. <source>Ecology</source>. <year>1987</year>;<volume>68</volume>: <fpage>611</fpage>–<lpage>623</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref004">
+        <label>4</label>
+        <mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Wooton</surname><given-names>RJ</given-names></name>. <chapter-title>A functional biology of sticklebacks</chapter-title>. <publisher-loc>London</publisher-loc>: <publisher-name>Croom Helm</publisher-name>; <year>1984</year>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref005">
+        <label>5</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Burrowes</surname><given-names>PA</given-names></name>. <article-title>Parental care and sexual selection in the Puerto Rican cave-dwelling frog, <italic>Eleutherodactylus cooki</italic></article-title>. <source>Herpetologica</source>. <year>2000</year>;<volume>56</volume>: <fpage>375</fpage>–<lpage>386</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref006">
+        <label>6</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Junca</surname><given-names>FA</given-names></name>. <article-title>Parental care and egg mortality in <italic>Colostethus stepheni</italic></article-title>. <source>J Herpetol</source>. <year>1996</year>;<volume>30</volume>: <fpage>292</fpage>–<lpage>294</lpage>. <object-id pub-id-type="pmid">8593087</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref007">
+        <label>7</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Murphy</surname><given-names>PJ</given-names></name>. <article-title>Context-dependent reproductive site choice in a neotrophic frog</article-title>. <source>Behav Ecol</source>. <year>2003</year>;<volume>14</volume>: <fpage>626</fpage>–<lpage>633</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref008">
+        <label>8</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Woodruff</surname><given-names>DS</given-names></name>. <article-title>Male postmating brooding behavior in three Australian <italic>Pseudophryne</italic> (Anura: Leptodactylidae)</article-title>. <source>Herpetologica</source>. <year>1977</year>;<volume>33</volume>: <fpage>296</fpage>–<lpage>303</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref009">
+        <label>9</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Burley</surname><given-names>N</given-names></name>. <article-title>Clutch overlap and clutch size: alternative and complementary reproductive tactics</article-title>. <source>Am Nat</source>. <year>1980</year>;<volume>115</volume>: <fpage>223</fpage>–<lpage>246</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref010">
+        <label>10</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hetmanski</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Wolk</surname><given-names>E</given-names></name>. <article-title>The effect of enviromental factors and nesting conditions on clutch overlap in the feral pigeon <italic>Columba Livia</italic> F.Urbana(GM.)</article-title>. <source>Pol J Ecol</source>. <year>2005</year>;<volume>53</volume>: <fpage>523</fpage>–<lpage>534</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref011">
+        <label>11</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lowther</surname><given-names>PE</given-names></name>. <article-title>Overlap of house sparrow broods in the same nest</article-title>. <source>Bird-Banding</source>. <year>1979</year>;<volume>50</volume>: <fpage>160</fpage>–<lpage>162</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref012">
+        <label>12</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Westmoreland</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Best</surname><given-names>LB</given-names></name>, <name name-style="western"><surname>Blockstein</surname><given-names>DE</given-names></name>. <article-title>Multiple brooding as a reproductive strategy: time-conserving adaptations in mourning doves</article-title>. <source>Auk</source>. <year>1986</year>;<volume>103</volume>: <fpage>196</fpage>–<lpage>203</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref013">
+        <label>13</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Avise</surname><given-names>JC</given-names></name>, <name name-style="western"><surname>Jones</surname><given-names>AG</given-names></name>, <name name-style="western"><surname>Walker</surname><given-names>D</given-names></name>, <name name-style="western"><surname>DeWoody</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Dakin</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Fiumera</surname><given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Genetic mating systems and reproductive natural histories of fishes: Lessons for ecology and evolution</article-title>. <source>Annu Rev Genet</source>. <year>2002</year>;<volume>36</volume>: <fpage>19</fpage>–<lpage>45</lpage>. <object-id pub-id-type="pmid">12429685</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref014">
+        <label>14</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Petrie</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kempenaers</surname><given-names>B</given-names></name>. <article-title>Extra-pair paternity in birds: explaining variation between species and population</article-title>. <source>Trends Ecol Evol</source>. <year>1998</year>;<volume>13</volume>: <fpage>52</fpage>–<lpage>58</lpage>. <object-id pub-id-type="pmid">21238200</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref015">
+        <label>15</label>
+        <mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Roberts</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Byrne</surname><given-names>PG</given-names></name>. <chapter-title>Polyandry, sperm competition and the evolution of anuran amphibians</chapter-title>. In: <name name-style="western"><surname>Brockmann</surname><given-names>H. J.</given-names></name>, <name name-style="western"><surname>Roper</surname><given-names>T. J.</given-names></name>, <name name-style="western"><surname>Naguib</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Mitani</surname><given-names>J. C.</given-names></name> and <name name-style="western"><surname>Simmons</surname><given-names>L. W.</given-names></name>, editors. <source>Adv Study Behav</source>. <publisher-loc>Burlington</publisher-loc>: <publisher-name>Academic Press</publisher-name>; <year>2011</year>. pp. <fpage>1</fpage>–<lpage>53</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref016">
+        <label>16</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>DeWoody</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Avise</surname><given-names>JC</given-names></name>. <article-title>Genetic perspectives on the natural history of fish mating systems</article-title>. <source>J Hered</source>. <year>2001</year>;<volume>92</volume>: <fpage>167</fpage>–<lpage>172</lpage>. <object-id pub-id-type="pmid">11396575</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref017">
+        <label>17</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Breitenbach</surname><given-names>GL</given-names></name>. <article-title>The frequency of communal nesting and solitary brooding in the salamander, <italic>Hemidactylium scutatum</italic></article-title>. <source>J Herpetol</source>. <year>1982</year>;<volume>16</volume>: <fpage>341</fpage>–<lpage>346</lpage>. <object-id pub-id-type="pmid">7071084</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref018">
+        <label>18</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carreno</surname><given-names>CA</given-names></name>, <name name-style="western"><surname>Harris</surname><given-names>RN</given-names></name>. <article-title>Lack of nest defense behavior and attendance patterns in a joint nesting salamander, <italic>Hemidactylium scutatum</italic> (Caudata: Plethodontidae)</article-title>. <source>Copeia</source>. <year>1998</year>;<volume>1998</volume>: <fpage>183</fpage>–<lpage>189</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref019">
+        <label>19</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Harris</surname><given-names>RN</given-names></name>, <name name-style="western"><surname>Gill</surname><given-names>DE</given-names></name>. <article-title>Communal nesting, brooding behavior, and embryonic survival of the four-toed salamander, <italic>Hemidactylium scutatum</italic></article-title>. <source>Herpetologica</source>. <year>1980</year>;<volume>36</volume>: <fpage>141</fpage>–<lpage>144</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref020">
+        <label>20</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hoover</surname><given-names>JP</given-names></name>. <article-title>Decision rules for site fidelity in a migratory bird, the prothonotary warbler</article-title>. <source>Ecology</source>. <year>2003</year>;<volume>84</volume>: <fpage>416</fpage>–<lpage>430</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref021">
+        <label>21</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vergara</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Aguirre</surname><given-names>JI</given-names></name>, <name name-style="western"><surname>Fargallo</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Davila</surname><given-names>JA</given-names></name>. <article-title>Nest-site fidelity and breeding success in White stork <italic>Ciconia ciconia</italic></article-title>. <source>Ibis</source>. <year>2006</year>;<volume>148</volume>: <fpage>672</fpage>–<lpage>677</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref022">
+        <label>22</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Doligez</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Danchin</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Clobert</surname><given-names>J</given-names></name>. <article-title>Public information and breeding habitat selection in a wild bird population</article-title>. <source>Science</source>. <year>2002</year>;<volume>297</volume>: <fpage>1168</fpage>–<lpage>1170</lpage>. <object-id pub-id-type="pmid">12183627</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref023">
+        <label>23</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mokany</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Shine</surname><given-names>R</given-names></name>. <article-title>Oviposition site selection by mosquitoes is affected cues from conspecific larvae and anuran tadpoles</article-title>. <source>Aust Ecol</source>. <year>2003</year>;<volume>28</volume>: <fpage>33</fpage>–<lpage>37</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref024">
+        <label>24</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rudolf</surname><given-names>VHW</given-names></name>, <name name-style="western"><surname>Rodel</surname><given-names>M</given-names></name>. <article-title>Oviposition site selection in a complex and variable environment: the role of habitat quality and conspecific cues</article-title>. <source>Oecologia</source>. <year>2005</year>;<volume>142</volume>: <fpage>316</fpage>–<lpage>325</lpage>. <object-id pub-id-type="pmid">15503166</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref025">
+        <label>25</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schulte</surname><given-names>LM</given-names></name>, <name name-style="western"><surname>Roedder</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Schulte</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Loetters</surname><given-names>S</given-names></name>. <article-title>Preference and competition for breeding plants in coexisting <italic>Ranitomeya</italic> species (Dendrobatidae): does height play a role?</article-title><source>Salamandra</source>. <year>2010</year>;<volume>46</volume>: <fpage>180</fpage>–<lpage>184</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref026">
+        <label>26</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bried</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Pontler</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Jouventin</surname><given-names>P</given-names></name>. <article-title>Mate fidelity in monogamous birds: a re-examination of the Procellariiformes</article-title>. <source>Anim Behav</source>. <year>2003</year>;<volume>65</volume>: <fpage>235</fpage>–<lpage>246</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref027">
+        <label>27</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sonerud</surname><given-names>GA</given-names></name>, <name name-style="western"><surname>Fjeld</surname><given-names>PE</given-names></name>. <article-title>Long-term memory in egg predators: experiment with a Hooded Crow</article-title>. <source>Ornis Scand</source>. <year>1987</year>;<volume>18</volume>: <fpage>323</fpage>–<lpage>324</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref028">
+        <label>28</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cezilly</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Dubois</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Pagel</surname><given-names>M</given-names></name>. <article-title>Is mate fidelity related to site fidelity? A comparative analysis in Ciconiiforms</article-title>. <source>Anim Behav</source>. <year>2000</year>;<volume>59</volume>: <fpage>1143</fpage>–<lpage>1152</lpage>. <object-id pub-id-type="pmid">10877893</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref029">
+        <label>29</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Heg</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Bruinzeel</surname><given-names>LW</given-names></name>, <name name-style="western"><surname>Ens</surname><given-names>BJ</given-names></name>. <article-title>Fitness consequences of divorce in the oystercatcher, <italic>Haematopus ostralegus</italic></article-title>. <source>Anim Behav</source>. <year>2003</year>;<volume>66</volume>: <fpage>175</fpage>–<lpage>184</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref030">
+        <label>30</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barclay</surname><given-names>RMR</given-names></name>. <article-title>Variation in the costs and frequency of nest reuse by Barn Swallows(<italic>Hirundo rustica</italic>)</article-title>. <source>The Auk</source>. <year>1988</year>;<volume>105</volume>: <fpage>53</fpage>–<lpage>60</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref031">
+        <label>31</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Johnson</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Walters</surname><given-names>J</given-names></name>. <article-title>Effects of mate and site fidelity on nest survival of western sandpipers (<italic>Calidris mauri</italic>)</article-title>. <source>The Auk</source>. <year>2008</year>;<volume>125</volume>: <fpage>76</fpage>–<lpage>86</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref032">
+        <label>32</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Doody</surname><given-names>JS</given-names></name>, <name name-style="western"><surname>Freedberg</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Keogh</surname><given-names>JS</given-names></name>. <article-title>Communal egg-laying in reptiles and amphibians: evolutionary patterns and hypotheses</article-title>. <source>Q Rev Biol</source>. <year>2009</year>;<volume>84</volume>: <fpage>229</fpage>–<lpage>252</lpage>. <object-id pub-id-type="pmid">19764282</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref033">
+        <label>33</label>
+        <mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Krebs</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>Davies</surname><given-names>NB</given-names></name>. <source>An Introduction to Behavioural Ecology</source>. <publisher-loc>Oxford, UK</publisher-loc>: <publisher-name>Blackwell Science Publications</publisher-name>; <year>1993</year>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref034">
+        <label>34</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>, <name name-style="western"><surname>Yen</surname><given-names>C-F</given-names></name>, <name name-style="western"><surname>Hsu</surname><given-names>C-L</given-names></name>. <article-title>Water balance, growth, development, and survival of arboreal frog eggs (<italic>Chirixalus eiffingeri</italic>, Rhacophoridae): importance of egg distribution in bamboo stumps</article-title>. <source>Physiol Zool</source>. <year>1998</year>;<volume>71</volume>: <fpage>534</fpage>–<lpage>540</lpage>. <object-id pub-id-type="pmid">9754530</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref035">
+        <label>35</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname><given-names>Y-H</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>H-T</given-names></name>, <name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>. <article-title>The ecology of egg attendance in an arboreal breeding frog, <italic>Chirixalus eiffingeri</italic> (Anura: Rhacophoridae) from Taiwan</article-title>. <source>Zool Sci (Tokyo)</source>. <year>2007</year>;<volume>24</volume>: <fpage>234</fpage>–<lpage>440</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref036">
+        <label>36</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ueda</surname><given-names>H</given-names></name>. <article-title>Reproduction of <italic>Chirixalus eiffingeri</italic> (Boettger)</article-title>. <source>Sci Rep Lab Amphib Biol Hiroshima Univ</source>. <year>1986</year>;<volume>8</volume>: <fpage>109</fpage>–<lpage>116</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref037">
+        <label>37</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>Y-H</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>T-C</given-names></name>, <name name-style="western"><surname>Tsai</surname><given-names>I-R</given-names></name>. <article-title>Maternal brood care of an arboreal breeder, <italic>Chirixalus eiffingeri</italic> (Anura: Rhacophoridae) from Taiwan</article-title>. <source>Behaviour</source>. <year>2000</year>;<volume>137</volume>: <fpage>137</fpage>–<lpage>151</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref038">
+        <label>38</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cheng</surname><given-names>W-C</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>Y-H</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>H-T</given-names></name>, <name name-style="western"><surname>Roberts</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>. <article-title>Sequential polygyny during egg attendance is rare in a tree frog and does not increase male fitness</article-title>. <source>Ethology</source>. <year>2013</year>;<volume>119</volume>: <fpage>1</fpage>–<lpage>10</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/eth.12033" xlink:type="simple">10.1111/eth.12033</ext-link></comment> <object-id pub-id-type="pmid">24415820</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref039">
+        <label>39</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>Y-H</given-names></name>, <name name-style="western"><surname>Chuang</surname><given-names>Z-S</given-names></name>, <name name-style="western"><surname>Huang</surname><given-names>T-S</given-names></name>. <article-title>The growth and development of oophagous tadpoles in relation to brood care of an arboreal breeder, <italic>Chirixalus eiffingeri</italic> (Rhacophoridae)</article-title>. <source>Zool Stud</source>. <year>1997</year>;<volume>30</volume>: <fpage>186</fpage>–<lpage>193</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref040">
+        <label>40</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lin</surname><given-names>Y-S</given-names></name>, <name name-style="western"><surname>Lehtinen</surname><given-names>RM</given-names></name>, <name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>. <article-title>Time- and context-dependent oviposition site selection of a phytotelm-breeding frog in relation to habitat characteristics and conspecific cues</article-title>. <source>Herpetologica</source>. <year>2008</year>;<volume>64</volume>: <fpage>413</fpage>–<lpage>421</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref041">
+        <label>41</label>
+        <mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Kitching</surname><given-names>RL</given-names></name>. <chapter-title>Food webs and container habitats</chapter-title>. <publisher-loc>Cambridge, U.K.</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>; <year>2000</year>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref042">
+        <label>42</label>
+        <mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Lehtinen</surname><given-names>RM</given-names></name>, <name name-style="western"><surname>Lanoo</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Wassersug</surname><given-names>RJ</given-names></name>. <chapter-title>Phytotelm-breeding anurans: past, present and future research</chapter-title>. In: <name name-style="western"><surname>Lehtinen</surname><given-names>R. M.</given-names></name>, editor. <source>Ecology and Evolution of Phytotelm Breeding Anurans</source>. <publisher-loc>Ann Arbor</publisher-loc>: <publisher-name>Miscellaneous Publications, Museum of Zoology, University of Michigan</publisher-name>; <year>2004</year>. pp. <fpage>1</fpage>–<lpage>9</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref043">
+        <label>43</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Srivastava</surname><given-names>DS</given-names></name>, <name name-style="western"><surname>Kolasa</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Bengtsson</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Gonzalez</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Lawler</surname><given-names>SP</given-names></name>, <name name-style="western"><surname>Miller</surname><given-names>TE</given-names></name>, <etal>et al</etal>. <article-title>Are natural microcosms useful model systems for ecology?</article-title><source>Trends Ecol Evol</source>. <year>2004</year>;<volume>19</volume>: <fpage>379</fpage>–<lpage>384</lpage>. <object-id pub-id-type="pmid">16701289</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref044">
+        <label>44</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lannoo</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Townsend</surname><given-names>DS</given-names></name>, <name name-style="western"><surname>Wassersug</surname><given-names>RJ</given-names></name>. <article-title>Larval life in the leaves: arboreal tadpole types,with specical attention to the morphology, ecology, and behavior of the oophagous <italic>Osteopilus brunneus</italic></article-title>. <source>Fieldiana Zool</source>. <year>1987</year>;<volume>38</volume>: <fpage>1</fpage>–<lpage>31</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref045">
+        <label>45</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname><given-names>Y-H</given-names></name>, <name name-style="western"><surname>Su</surname><given-names>Y-J</given-names></name>, <name name-style="western"><surname>Lin</surname><given-names>Y-S</given-names></name>, <name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>. <article-title>Inter- and intraclutch competition among oophagous tadpoles of the Taiwanese tree frog, <italic>Chirixalus eiffingeri</italic> (Anura: Rhacophoridae)</article-title>. <source>Herpetologica</source>. <year>2001</year>;<volume>57</volume>: <fpage>438</fpage>–<lpage>448</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref046">
+        <label>46</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>, <name name-style="western"><surname>Chuang</surname><given-names>Z-S</given-names></name>, <name name-style="western"><surname>Yen</surname><given-names>C-F</given-names></name>. <article-title>Reproduction, oviposition-site selection, and tadpole oophagy of an arboreal nester, <italic>Chirixalus eiffingeri</italic> (Rhacophoridae), from Taiwan</article-title>. <source>J Herpetol</source>. <year>1996</year>;<volume>30</volume>: <fpage>52</fpage>–<lpage>59</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref047">
+        <label>47</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liang</surname><given-names>M-F</given-names></name>, <name name-style="western"><surname>Huang</surname><given-names>C-H</given-names></name>, <name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>. <article-title>Effects of intermittent feeding on the growth of oophagous (<italic>Chirixalus eiffingeri</italic>) and herbivorous (<italic>Chirixalus idiootocus</italic>) tadpoles from Taiwan</article-title>. <source>J Zool (Lond)</source>. <year>2002</year>;<volume>256</volume>: <fpage>207</fpage>–<lpage>213</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref048">
+        <label>48</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname><given-names>Y-H</given-names></name>, <name name-style="western"><surname>Cheng</surname><given-names>W-C</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>H-T</given-names></name>, <name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>. <article-title>Genetic relationship between offspring and guardian adults of a rhacophorid frog and its care effort in response to paternal share</article-title>. <source>Behav Ecol Sociobiol</source>. <year>2011</year>;<volume>65</volume>: <fpage>2329</fpage>–<lpage>2339</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref049">
+        <label>49</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kalinowski</surname><given-names>ST</given-names></name>, <name name-style="western"><surname>Taper</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Marshall</surname><given-names>TC</given-names></name>. <article-title>Revising how the computer program CERVUS accommodates genotyping error increases success in paternity assignment</article-title>. <source>Mol Ecol</source>. <year>2007</year>;<volume>16</volume>: <fpage>1099</fpage>–<lpage>1106</lpage>. <object-id pub-id-type="pmid">17305863</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref050">
+        <label>50</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marshall</surname><given-names>TC</given-names></name>, <name name-style="western"><surname>Slate</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Kruuk</surname><given-names>LE</given-names></name>, <name name-style="western"><surname>Pemberton</surname><given-names>JM</given-names></name>. <article-title>Statistical confidence for likelihood-based paternity inference in natural populations</article-title>. <source>Mol Ecol</source>. <year>1998</year>;<volume>7</volume>: <fpage>639</fpage>–<lpage>655</lpage>. <object-id pub-id-type="pmid">9633105</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref051">
+        <label>51</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>J</given-names></name>. <article-title>Sibship reconstruction from genetic data with typing errors</article-title>. <source>Genetics</source>. <year>2004</year>;<volume>166</volume>: <fpage>1963</fpage>–<lpage>1979</lpage>. <object-id pub-id-type="pmid">15126412</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref052">
+        <label>52</label>
+        <mixed-citation publication-type="book" xlink:type="simple"><collab xlink:type="simple">SAS Institute Inc</collab>. <chapter-title>SAS/STAT user's guide</chapter-title>. <publisher-loc>Cary, NC, USA</publisher-loc>: <publisher-name>SAS Institute Inc</publisher-name>; <year>2001</year>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref053">
+        <label>53</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schulte</surname><given-names>LM</given-names></name>, <name name-style="western"><surname>Loetters</surname><given-names>S</given-names></name>. <article-title>A danger foreseen is a danger avoided: how chemical cues of different tadpoles inluence parential decisions of a Neotropical poison frog</article-title>. <source>Anim Cogn</source>. <year>2014</year>;<volume>17</volume>: <fpage>267</fpage>–<lpage>275</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10071-013-0659-2" xlink:type="simple">10.1007/s10071-013-0659-2</ext-link></comment> <object-id pub-id-type="pmid">23852187</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref054">
+        <label>54</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McCarthy</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Parris</surname><given-names>KM</given-names></name>. <article-title>Clarifying the effect of toe clipping on frogs with Bayesian statistics</article-title>. <source>J Appl Ecol</source>. <year>2004</year>;<volume>41</volume>: <fpage>780</fpage>–<lpage>786</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref055">
+        <label>55</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Smith</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Wootton</surname><given-names>RJ</given-names></name>. <article-title>The costs of parental care in teleost fishes</article-title>. <source>Rev Fish Biol Fish</source>. <year>1995</year>;<volume>5</volume>: <fpage>7</fpage>–<lpage>22</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref056">
+        <label>56</label>
+        <mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Wootton</surname><given-names>RJ</given-names></name>. <source>A Functional Biology of Sticklebacks</source>. <publisher-loc>London</publisher-loc>: <publisher-name>Croom Helm</publisher-name>; <year>1984</year>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref057">
+        <label>57</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vockenhuber</surname><given-names>EA</given-names></name>, <name name-style="western"><surname>Hodl</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Karpfen</surname><given-names>U</given-names></name>. <article-title>Reproductive behaviour of the glass frog <italic>Hyalinobatrachium valerioi</italic> (Anura: Centrolenidae) at the tropical stream Quebrada Negra (La Gamba, Costa Rica)</article-title>. <source>Stapfia</source>. <year>2008</year>;<volume>88</volume>: <fpage>335</fpage>–<lpage>348</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref058">
+        <label>58</label>
+        <mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Clutton-Brock</surname><given-names>TH</given-names></name>. <chapter-title>The evolution of parental care</chapter-title>. <publisher-loc>Princeton, New Jersey</publisher-loc>: <publisher-name>Princeton University Press</publisher-name>; <year>1991</year>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref059">
+        <label>59</label>
+        <mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Crump</surname><given-names>M</given-names></name>. <chapter-title>Parental care</chapter-title>. In: <name name-style="western"><surname>Heatwole</surname><given-names>H.</given-names></name> and <name name-style="western"><surname>Sullivan</surname><given-names>B. K.</given-names></name>, editors. <source>Amphibian biology Vol 2 Social behaviour</source>. <publisher-loc>Chipping Norton, New South Wales, Australia</publisher-loc>: <publisher-name>Surrey Beatty and Sons</publisher-name>; <year>1995</year>. pp. <fpage>518</fpage>–<lpage>567</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref060">
+        <label>60</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gross</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Sargent</surname><given-names>RC</given-names></name>. <article-title>The evolution of male and female parental care in fishes</article-title>. <source>Am Zool</source>. <year>1985</year>;<volume>25</volume>: <fpage>807</fpage>–<lpage>822</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref061">
+        <label>61</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gruter</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Karcher</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>Ratnieks</surname><given-names>FLW</given-names></name>. <article-title>The natural history of nest defence in a stingless bee, <italic>Tetragonisca angustula</italic> (latreille) (Hymenoptera), with two distinct types of entrance guards</article-title>. <source>Neotrop Entomol</source>. <year>2011</year>;<volume>40</volume>: <fpage>55</fpage>–<lpage>61</lpage>. <object-id pub-id-type="pmid">21437483</object-id></mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref062">
+        <label>62</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Knouft</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Page</surname><given-names>LM</given-names></name>. <article-title>Nest defense against predators by the male fringed darter (<italic>Etheostoma crossopterum</italic>)</article-title>. <source>Copeia</source>. <year>2004</year>;<volume>2004</volume>: <fpage>915</fpage>–<lpage>918</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref063">
+        <label>63</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bachmann</surname><given-names>MD</given-names></name>. <article-title>Defensive behavior of brooding female red-backed salamanders (<italic>Plethodon cinereus</italic>)</article-title>. <source>Herpetologica</source>. <year>1984</year>;<volume>40</volume>: <fpage>436</fpage>–<lpage>443</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref064">
+        <label>64</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Forester</surname><given-names>DC</given-names></name>. <article-title>The adaptiveness of parental care in <italic>Desmognathus ochrophaeus</italic> Cope (Urodela: Plethodontidae)</article-title>. <source>Copeia</source>. <year>1979</year>;<volume>1979</volume>: <fpage>332</fpage>–<lpage>341</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref065">
+        <label>65</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Forester</surname><given-names>DC</given-names></name>. <article-title>Duration of the brooding period in the mountain dusky salamander (<italic>Desmognathus ochrophaeus</italic>) and its influence on aggression toward conspecifics</article-title>. <source>Copeia</source>. <year>1983</year>;<volume>1983</volume>: <fpage>1098</fpage>–<lpage>1101</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref066">
+        <label>66</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wells</surname><given-names>KD</given-names></name>. <article-title>Territoriality and male mating success in the green frog (Rana clamitans)</article-title>. <source>Ecology</source>. <year>1977</year>;<volume>58</volume>: <fpage>750</fpage>–<lpage>762</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref067">
+        <label>67</label>
+        <mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Wells</surname><given-names>KD</given-names></name>. <source>The Ecology and Behavior of Amphibians</source>. <publisher-loc>Chicago</publisher-loc>: <publisher-name>University of Chicago Press</publisher-name>; <year>2007</year>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref068">
+        <label>68</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Campobello</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Sealy</surname><given-names>SG</given-names></name>. <article-title>Use of social over personal information enhances nest defense against avian brood parasitism</article-title>. <source>Behav Ecol</source>. <year>2011</year>;<volume>22</volume>: <fpage>422</fpage>–<lpage>428</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref069">
+        <label>69</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Redmond</surname><given-names>LJ</given-names></name>, <name name-style="western"><surname>Murphy</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Dolan</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Sexton</surname><given-names>K</given-names></name>. <article-title>Parental investment theory and nest defense by eastern kingbirds</article-title>. <source>Wilson J Ornithol</source>. <year>2009</year>;<volume>121</volume>: <fpage>1</fpage>–<lpage>11</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref070">
+        <label>70</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Westmoreland</surname><given-names>D</given-names></name>. <article-title>Offspring age and nest defence in mourning doves: a test of two hypotheses</article-title>. <source>Anim Behav</source>. <year>1989</year>;<volume>38</volume>: <fpage>1062</fpage>–<lpage>1066</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref071">
+        <label>71</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ewen</surname><given-names>JG</given-names></name>, <name name-style="western"><surname>Armstrong</surname><given-names>DP</given-names></name>, <name name-style="western"><surname>Ebert</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Hansen</surname><given-names>LH</given-names></name>. <article-title>Extra-pair copulation and paternity defense in the hihi (or stitchbird) <italic>Notiomystis cincta</italic></article-title>. <source>N Z J Ecol</source>. <year>2004</year>;<volume>28</volume>: <fpage>233</fpage>–<lpage>240</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref072">
+        <label>72</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Macdougall-Shackleton</surname><given-names>EA</given-names></name>, <name name-style="western"><surname>Robertson</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Boag</surname><given-names>PT</given-names></name>. <article-title>Temporary male removal increases extra-pair paternity in eastern bluebirds</article-title>. <source>Anim Behav</source>. <year>1996</year>;<volume>52</volume>: <fpage>1177</fpage>–<lpage>1183</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref073">
+        <label>73</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Moller</surname><given-names>AP</given-names></name>. <article-title>Changes in the size of avian breeding territories in relation to the nesting cycle</article-title>. <source>Anim Behav</source>. <year>1990</year>;<volume>40</volume>: <fpage>1070</fpage>–<lpage>1079</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref074">
+        <label>74</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rowe</surname><given-names>KMC</given-names></name>, <name name-style="western"><surname>Weatherhead</surname><given-names>PJ</given-names></name>. <article-title>Social and ecological factors affecting paternity allocation in American robins with overlapping broods</article-title>. <source>Behav Ecol Sociobiol</source>. <year>2007</year>;<volume>61</volume>: <fpage>1283</fpage>–<lpage>1291</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref075">
+        <label>75</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hom</surname><given-names>CL</given-names></name>, <name name-style="western"><surname>Willits</surname><given-names>NW</given-names></name>, <name name-style="western"><surname>Clark</surname><given-names>CW</given-names></name>. <article-title>Fitness consequences of nest defense in Plethodontid salamanders: predictions of a dynamic optimization model</article-title>. <source>Herpetologica</source>. <year>1990</year>;<volume>46</volume>: <fpage>304</fpage>–<lpage>319</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref076">
+        <label>76</label>
+        <mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Shang</surname><given-names>KS</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>YJ</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>PH</given-names></name>. <source>Field Guide to Amphibians and Reptiles in Taiwan</source>. <publisher-loc>Taipei, Taiwan</publisher-loc>: <publisher-name>Owl Press</publisher-name>; <year>2009</year>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref077">
+        <label>77</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Daugherty</surname><given-names>CH</given-names></name>, <name name-style="western"><surname>Sheldon</surname><given-names>AL</given-names></name>. <article-title>Age-specific movement patterns of the frog <italic>Ascaphus truei</italic></article-title>. <source>Herpetologica</source>. <year>1982</year>;<volume>38</volume>: <fpage>468</fpage>–<lpage>474</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref078">
+        <label>78</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>T-C</given-names></name>. <article-title>Abundance and Movement of a Riparian Frog (<italic>Rana swinhoana</italic>) in a Subtropical Forest of Guandaushi, Taiwan</article-title>. <source>Zool Stud</source>. <year>2000</year>;<volume>39</volume>: <fpage>67</fpage>–<lpage>76</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref079">
+        <label>79</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tessier</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Slaven</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Green</surname><given-names>DM</given-names></name>. <article-title>Population density and daily movement patterns of Hochstetter's frogs, <italic>Leiopelma hochstetteri</italic>, in a New Zealand mountain stream</article-title>. <source>J Herpetol</source>. <year>1991</year>;<volume>25</volume>: <fpage>213</fpage>–<lpage>214</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref080">
+        <label>80</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Johannesen</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Perriman</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Steen</surname><given-names>H</given-names></name>. <article-title>The effect of breeding success on nest and colony fidelity in the Little Penquin (<italic>Eudyptula minor</italic>) in Otago, Zew Zealand</article-title>. <source>Emu</source>. <year>2002</year>;<volume>102</volume>: <fpage>241</fpage>–<lpage>247</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref081">
+        <label>81</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Naves</surname><given-names>LC</given-names></name>, <name name-style="western"><surname>Monnat</surname><given-names>JY</given-names></name>, <name name-style="western"><surname>Cam</surname><given-names>E</given-names></name>. <article-title>Breeding performance, mate fidelity, and nest site fidelity in a long-lived seabird: behaving against the current</article-title>. <source>Oikos</source>. <year>2006</year>;<volume>115</volume>: <fpage>263</fpage>–<lpage>276</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref082">
+        <label>82</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dow</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Fredga</surname><given-names>S</given-names></name>. <article-title>Breeding and natal dispersal of the Goldeneye, <italic>Bucephala clamgula</italic></article-title>. <source>J Anim Ecol</source>. <year>1983</year>;<volume>52</volume>: <fpage>681</fpage>–<lpage>695</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref083">
+        <label>83</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Reid</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Bignal</surname><given-names>EM</given-names></name>, <name name-style="western"><surname>Bignal</surname><given-names>S</given-names></name>, <name name-style="western"><surname>MacCrackens</surname><given-names>DI</given-names></name>, <name name-style="western"><surname>Monaghan</surname><given-names>P</given-names></name>. <article-title>Age-specific reproductive performance in red-billed choughs <italic>Pyrrhocorax</italic>: patterns and processes in a natural population</article-title>. <source>J Anim Ecol</source>. <year>2003</year>;<volume>72</volume>: <fpage>765</fpage>–<lpage>776</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref084">
+        <label>84</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>, <name name-style="western"><surname>Lin</surname><given-names>C-F</given-names></name>, <name name-style="western"><surname>Lin</surname><given-names>Y-S</given-names></name>, <name name-style="western"><surname>Tsai</surname><given-names>Y-F</given-names></name>. <article-title>Density effects of oophagous tadpoles of <italic>Chirixalus eiffingeri</italic> (Anura: Rhacophoridae): importance of maternal brood care</article-title>. <source>Herptologica</source>. <year>1998</year>;<volume>54</volume>: <fpage>425</fpage>–<lpage>433</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref085">
+        <label>85</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lin</surname><given-names>Y-S</given-names></name>, <name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>. <article-title>Nest choice and breeding phenology of an arboreal-breeding frog, <italic>Kurixalus eiffingeri</italic> (Rhacophoridae), in a bamboo forest</article-title>. <source>Zool Stud</source>. <year>2008</year>;<volume>42</volume>: <fpage>129</fpage>–<lpage>137</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref086">
+        <label>86</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chiu</surname><given-names>C-T</given-names></name>, <name name-style="western"><surname>Kam</surname><given-names>Y-C</given-names></name>. <article-title>Growth of oophagous tadpoles (<italic>Chirixalus eiffingeri</italic>: Rhacophoridae) after nest displacement: implications for maternal care and nest homing</article-title>. <source>Behaviour</source>. <year>2006</year>;<volume>143</volume>: <fpage>123</fpage>–<lpage>139</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref087">
+        <label>87</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Harris</surname><given-names>RN</given-names></name>, <name name-style="western"><surname>Hames</surname><given-names>WW</given-names></name>, <name name-style="western"><surname>Knight</surname><given-names>IT</given-names></name>, <name name-style="western"><surname>Carreno</surname><given-names>CA</given-names></name>, <name name-style="western"><surname>Vess</surname><given-names>TJ</given-names></name>. <article-title>An experimental analysis of joint nesting in the salamander <italic>Hemidactylium scutatum</italic> (Caudata: Plethodontidae): the effects of population density</article-title>. <source>Anim Behav</source>. <year>1995</year>;<volume>50</volume>: <fpage>1309</fpage>–<lpage>1316</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref088">
+        <label>88</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Laurila</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Seppa</surname><given-names>P</given-names></name>. <article-title>Multiple paternity in the common frog (<italic>Rana temporaria</italic>): genetic evidence from tadpole kin groups</article-title>. <source>Biol J Linn Soc</source>. <year>1998</year>;<volume>63</volume>: <fpage>221</fpage>–<lpage>232</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0123221.ref089">
+        <label>89</label>
+        <mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vieites</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Nieto-Roman</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Barluenga</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Palanca</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Vences</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Meyer</surname><given-names>A</given-names></name>. <article-title>Post-mating clutch piracy in an amphibian</article-title>. <source>Nature</source>. <year>2004</year>;<volume>431</volume>: <fpage>305</fpage>–<lpage>308</lpage>. <object-id pub-id-type="pmid">15372032</object-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

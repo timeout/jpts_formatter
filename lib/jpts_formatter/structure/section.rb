@@ -18,7 +18,7 @@ module JPTSFormatter
           format_section_title(section.title)
         end
 
-        section.each do |subsection|
+        section.each(section) do |subsection|
           case subsection
           when JPTSExtractor::ArticlePart::Section
             subsection.format(self)

@@ -2,11 +2,10 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jpts_formatter/version'
-require 'rake'
 
 Gem::Specification.new do |spec|
   spec.name          = "jpts_formatter"
-  spec.version       = JptsFormatter::VERSION
+  spec.version       = JPTSFormatter::VERSION
   spec.authors       = ["Joe Gain"]
   spec.email         = ["joe.gain@gmail.com"]
 
@@ -22,9 +21,10 @@ Gem::Specification.new do |spec|
     raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   end
 
-  spec.files = FileList['lib/**/*']
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+  spec.bindir         = "exe"
+  spec.executables    = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.require_paths  = ["lib"]
   
   spec.add_dependency 'jpts_extractor'
   spec.add_dependency 'thor', '~> 0.19.1', '>= 0.19.0'

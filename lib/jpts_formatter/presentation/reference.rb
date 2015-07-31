@@ -7,6 +7,9 @@ module JPTSFormatter
           xml.tag!('fo:inline', {}, 
                    "#{reference.author_names.map { |name| name.to_s }.join(', ') }")
         end
+        xml.tag!('fo:inline', {}, "#{reference.chapter_title}") if reference.chapter_title?
+        xml.tag!('fo:inline', {}, "#{reference.publisher_loc}:") if reference.publisher_loc?
+        xml.tag!('fo:inline', {}, "#{reference.publisher_name}") if reference.publisher_name?
         xml.tag!('fo:inline', {}, "(#{reference.year})") if reference.year?
         if reference.article_title?
           xml.tag!('fo:inline', {}, "#{reference.article_title}") 

@@ -2,14 +2,18 @@ require 'jpts_formatter/version'
 require 'jpts_formatter/article'
 require 'jpts_formatter/document'
 require 'jpts_formatter/default_document'
+require 'jpts_formatter/errors'
+require 'jpts_formatter/graphics_dir'
 
 require 'jpts_extractor'
 
 module JPTSFormatter
-  def self.format(io)
+  def self.format(io, graphics_dir = nil)
+    JPTSFormatter.graphics_dir_path = graphics_dir
+
     article = JPTSExtractor.extract(io)
 
-    output = String.new
+    output = nil
     JPTSFormatter::Document.repository.each do |document|
       JPTSFormatter::Presentation.document = document.new
       formatter = JPTSFormatter::Article.new
@@ -21,12 +25,5 @@ module JPTSFormatter
   end
 end
 
-# paths = Array.new
-# paths << Pathname.new('/home/joe/documents/corpora/0123867/tei/0123867.xml')
-# paths << Pathname.new('/home/joe/documents/corpora/0128337/tei/0128337.xml')
-# paths << Pathname.new('/home/joe/documents/corpora/0128875/tei/0128875.xml')
-# paths << Pathname.new('/home/joe/documents/corpora/0125164/tei/0125164.xml')
-# paths.each do |path|
-#   puts "formatting article: #{path.basename}"
-#   JPTSFormatter.format(path)
-# end
+require 'pathname'
+
