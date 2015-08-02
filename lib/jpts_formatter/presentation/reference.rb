@@ -14,7 +14,10 @@ module JPTSFormatter
         if reference.article_title?
           xml.tag!('fo:inline', {}, "#{reference.article_title}") 
         end
-        xml.tag!('fo:inline', {}, "#{reference.source}") if reference.source?
+        # xml.tag!('fo:inline', {}, "#{reference.source}") if reference.source?
+        xml.tag!('fo:inline') do
+          Text.new(xml).format(reference.source)
+        end if reference.source?
         xml.tag!('fo:inline', {}, "#{reference.issue}") if reference.issue?
         xml.tag!('fo:inline', {}, "#{reference.volume}:") if reference.volume?
         if reference.fpage? and reference.lpage?
