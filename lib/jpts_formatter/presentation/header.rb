@@ -1,5 +1,6 @@
 require 'jpts_formatter/presentation/page_configuration'
 require 'jpts_formatter/logo_path'
+require 'jpts_formatter/structure/text'
 
 module JPTSFormatter
   module Presentation
@@ -44,7 +45,7 @@ module JPTSFormatter
                   xml.tag!('fo:block', {
                     'text-align': 'right'
                   }) do 
-                    Structure::Text.new(xml).format(alt_title)
+                    Structure::Text.new(xml).format(alt_title) unless alt_title.nil?
                   end
                 end
               end
