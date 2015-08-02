@@ -48,8 +48,11 @@ module JPTSFormatter
               'line-height': '12pt',
               'text-align': 'left'
             }) do
-              table.body_rows.each do |row|
-                xml.tag!('fo:table-row') do
+              table.body_rows.each_with_index do |row, row_index|
+                bg_hash = Hash.new
+                colour = (row_index % 2).zero? ? '#E5E5E5' : '#D0D0D0'
+                bg_hash[:'background-color'] = colour
+                xml.tag!('fo:table-row', bg_hash) do
                   row.each_with_index do |cell, index|
                     format_table_cell(xml, cell, (index + 1))
                   end

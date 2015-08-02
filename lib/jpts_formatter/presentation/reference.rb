@@ -16,7 +16,6 @@ module JPTSFormatter
         if reference.article_title?
           xml.tag!('fo:inline', {}, "#{reference.article_title}") 
         end
-        # xml.tag!('fo:inline', {}, "#{reference.source}") if reference.source?
         xml.tag!('fo:inline') do
           Structure::Text.new(xml).format(reference.source)
         end if reference.source?

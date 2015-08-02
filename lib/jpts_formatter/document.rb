@@ -8,11 +8,11 @@ module JPTSFormatter
       raise NotImplementedError.new
     end
 
-    def format_header(xml)
+    def format_header(xml, alt_title)
       raise NotImplementedError.new
     end
 
-    def format_footer(xml)
+    def format_footer(xml, published_date)
       raise NotImplementedError.new
     end
 

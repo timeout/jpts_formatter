@@ -31,9 +31,9 @@ module JPTSFormatter
           self.xml.comment! 'document title'
           self.xml.tag!('fo:title', {}, document_title(article))
 
-          format_header
+          format_header(alt_title(article))
 
-          format_footer
+          format_footer(published(article))
 
           self.xml.tag!('fo:flow', {
             'flow-name': 'xsl-region-body'
@@ -57,6 +57,14 @@ module JPTSFormatter
 
     def document_title(article)
       article.front.journal_meta.journal_title
+    end
+
+    def alt_title(article)
+      article.front.article_meta.alt_title
+    end
+
+    def published(article)
+      article.front.article_meta.published_date
     end
   end
 end

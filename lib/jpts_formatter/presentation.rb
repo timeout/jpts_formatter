@@ -5,12 +5,12 @@ module JPTSFormatter
       Presentation.document.format_layout_master(xml)
     end
 
-    def format_header
-      Presentation.document.format_header(xml)
+    def format_header(alt_title)
+      Presentation.document.format_header(xml, alt_title)
     end
 
-    def format_footer
-      Presentation.document.format_footer(xml)
+    def format_footer(published_date)
+      Presentation.document.format_footer(xml, published_date)
     end
 
     def format_subject(subject)

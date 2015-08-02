@@ -34,12 +34,12 @@ module JPTSFormatter
       Presentation::DocumentElements.format_layout_master(xml)
     end
 
-    def format_header(xml)
-      Presentation::DocumentElements.format_header(xml)
+    def format_header(xml, alt_title)
+      Presentation::DocumentElements.format_header(xml, alt_title)
     end
 
-    def format_footer(xml)
-      Presentation::DocumentElements.format_footer(xml)
+    def format_footer(xml, published_date)
+      Presentation::DocumentElements.format_footer(xml, published_date)
     end
 
     def format_subject(xml, subject)

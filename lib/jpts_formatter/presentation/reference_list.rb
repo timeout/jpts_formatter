@@ -44,6 +44,9 @@ module JPTSFormatter
             end
           end
         end
+        xml.tag!('fo:block', {
+          id: 'the_last_page'
+        })
       end
 
     end

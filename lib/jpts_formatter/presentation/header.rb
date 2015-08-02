@@ -1,15 +1,18 @@
+require 'jpts_formatter/presentation/page_configuration'
+require 'jpts_formatter/logo_path'
+
 module JPTSFormatter
   module Presentation
     module DocumentElements
 
-      def self.format_header(xml)
+      def self.format_header(xml, alt_title)
         xml.tag!('fo:static-content', {
           'flow-name': 'xsl-region-before'
         }) do
           xml.tag!('fo:table', {
             'table-layout': 'fixed',
             width: '100%',
-            'font-size': '9pt'
+            'font-size': '8pt'
           }) do
             xml.tag!('fo:table-column', {
               'column-number': '1',
@@ -28,16 +31,21 @@ module JPTSFormatter
                 xml.tag!('fo:table-cell', {
                   'display-align': 'after'
                 }) do
-                  xml.tag!('fo:block', {
-                    'text-align': 'left'
-                  }, 'something')   # TODO:
+                  xml.tag!('fo:block') do
+                    xml.tag!('fo:external-graphic', {
+                      src: "#{JPTSFormatter.logo_path}",
+                      'content-height': Presentation.header_extent
+                    })
+                  end
                 end
                 xml.tag!('fo:table-cell', {
                   'display-align': 'after'
                 }) do
                   xml.tag!('fo:block', {
                     'text-align': 'right'
-                  }, 'or_other')    # TODO:
+                  }) do 
+                    Structure::Text.new(xml).format(alt_title)
+                  end
                 end
               end
             end

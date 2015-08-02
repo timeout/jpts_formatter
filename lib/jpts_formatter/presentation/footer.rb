@@ -2,7 +2,7 @@ module JPTSFormatter
   module Presentation
     module DocumentElements
 
-      def self.format_footer(xml)
+      def self.format_footer(xml, published_date)
         xml.tag!('fo:static-content', {
           'flow-name': 'xsl-region-after'
         }) do
@@ -12,7 +12,7 @@ module JPTSFormatter
           xml.tag!('fo:table', {
             'table-layout': 'fixed',
             width: '100%',
-            'font-size': '9pt'
+            'font-size': '8pt'
           }) do
             xml.tag!('fo:table-column', {
               'column-number': '1',
@@ -33,14 +33,20 @@ module JPTSFormatter
                 }) do
                   xml.tag!('fo:block', {
                     'text-align': 'left'
-                  }, 'something')   # TODO:
+                  }, published_date.strftime("%B %e, %Y"))
                 end
                 xml.tag!('fo:table-cell', {
                   'display-align': 'after'
                 }) do
                   xml.tag!('fo:block', {
                     'text-align': 'right'
-                  }, 'or_other')    # TODO:
+                  })  do
+                    xml.tag!('fo:page-number') 
+                    xml.text!('/') 
+                    xml.tag!('fo:page-number-citation', {
+                      'ref-id': 'the_last_page'
+                    })
+                  end
                 end
               end
             end
