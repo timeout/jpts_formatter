@@ -1,3 +1,5 @@
+require 'jpts_formatter/structure/text'
+
 module JPTSFormatter
   module Presentation
     module DocumentElements
@@ -16,7 +18,7 @@ module JPTSFormatter
         end
         # xml.tag!('fo:inline', {}, "#{reference.source}") if reference.source?
         xml.tag!('fo:inline') do
-          Text.new(xml).format(reference.source)
+          Structure::Text.new(xml).format(reference.source)
         end if reference.source?
         xml.tag!('fo:inline', {}, "#{reference.issue}") if reference.issue?
         xml.tag!('fo:inline', {}, "#{reference.volume}:") if reference.volume?
