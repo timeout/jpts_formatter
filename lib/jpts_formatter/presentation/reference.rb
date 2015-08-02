@@ -21,11 +21,10 @@ module JPTSFormatter
         end if reference.source?
         xml.tag!('fo:inline', {}, "#{reference.issue}") if reference.issue?
         xml.tag!('fo:inline', {}, "#{reference.volume}:") if reference.volume?
-        if reference.fpage? and reference.lpage?
-          xml.tag!('fo:inline', {}, "#{reference.fpage}-#{reference.lpage}") 
-        end
-      end
+        xml.tag!('fo:inline', {}, "#{reference.fpage}") if reference.fpage?
+        xml.tag!('fo:inline', {}, "-#{reference.lpage}") if reference.lpage?
 
+      end
     end
   end
 end
